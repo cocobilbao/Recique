@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import AuthService from './AuthService';
-import "./Login.scss";
+import "./prueba.scss";
 
 export default class Login extends Component {
   constructor() {
