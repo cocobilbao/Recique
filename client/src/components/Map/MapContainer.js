@@ -1,18 +1,21 @@
 import React, { Component } from "react";
 import { Map, InfoWindow, Marker, GoogleApiWrapper } from "google-maps-react";
 import ropaData from "../../ropa.json";
+import oilData from "../../oil.json";
 
 export class MapContainer extends Component {
   constructor(props) {
     super(props);
     this.state = {
       ropaData,
+      oilData,
       currentLatLng: {
         lat: 40,
         lng: 0
       },
       isMarkerShown: false,
-      isSearchingClothes: false
+      isSearchingClothes: false,
+      isSearchingOil: false
     };
   }
 
@@ -29,14 +32,24 @@ export class MapContainer extends Component {
       });
     }
   };
-  showRopa = () =>{
-    if (this.state.isSearchingClothes){
-    this.setState({...this.state, isSearchingClothes:false})
-    }else{
-      this.setState({...this.state, isSearchingClothes:true})
+  
+  showRopa = () => {
+    if (this.state.isSearchingClothes) {
+      this.setState({ ...this.state, isSearchingClothes: false });
+    } else {
+      this.setState({ ...this.state, isSearchingClothes: true });
     }
-  }
-  componentWillMount() {
+  };
+
+  showOil = () => {
+    if (this.state.isSearchingOil) {
+      this.setState({ ...this.state, isSearchingOil: false });
+    } else {
+      this.setState({ ...this.state, isSearchingOil: true });
+    }
+  };
+
+  componentDidMount() {
     this.showCurrentLocation();
     console.log(this.state.currentLatLng.lat);
   }
@@ -47,7 +60,10 @@ export class MapContainer extends Component {
     };
     return (
       <div>
-        <input type="checkbox" onChange={this.showRopa}/><h4>Ropa</h4>
+        <input type="checkbox" onChange={this.showRopa} />
+        <h4>Ropa</h4>
+        <input type="checkbox" onChange={this.showOil} />
+        <h4>Aceite vegetal</h4>
         <Map
           class="Map"
           google={this.props.google}
@@ -61,6 +77,16 @@ export class MapContainer extends Component {
               const pos = {
                 lat: ropa.LATITUD,
                 lng: ropa.LONGITUD
+              };
+
+              return <Marker position={pos} />;
+            })}
+
+          {this.state.isSearchingOil &&
+            this.state.oilData.map(oil => {
+              const pos = {
+                lat: oil.LATITUD,
+                lng: oil.LONGITUD
               };
 
               return <Marker position={pos} />;
