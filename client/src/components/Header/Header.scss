@@ -1,30 +1,45 @@
-#Header{
-  height: 18vh;
+#Header {
+  height: 20vh;
+  background-image: url("https://res.cloudinary.com/rcwebdev/image/upload/v1544543405/react/drawing.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-$color_accent: #447fff;
-$color_accent_highlight: lighten($color_accent, 6);
-$color_grey: #e2e2fb;
+.brand {
+  width: 100%;
+  height: 20%;
+}
+
+h1{
+  margin: 0;
+}
+
+$color_accent: rgb(0, 139, 28);
+$color_accent_highlight: rgb(0, 110, 22);
+$color_grey: rgb(0, 139, 28);
 
 .menu {
-  background: #efefff;
-  color: #000;
-  height: 100%;
+  background: #00991e;
+  margin-top: 8.4vh;
   border-radius: 4px;
   width: 100vw;
-  box-shadow: 0 5px 25px rgba(0, 0, 0, .4);
+  // height: 50%;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.4);
   overflow: hidden;
 
-
   &-item {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    height: 50%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     cursor: pointer;
     transition: background 0.15s ease-out;
     position: relative;
     z-index: 1;
     display: inline-block;
     width: 33vw;
+    color: white;
+    text-align: center;
 
     &:before {
       content: "";
@@ -33,7 +48,7 @@ $color_grey: #e2e2fb;
       left: 0;
       bottom: 0;
       z-index: -1;
-      width: 0%;
+      width: 0vw;
     }
 
     &:hover {
@@ -42,14 +57,13 @@ $color_grey: #e2e2fb;
   }
 
   .selected {
-    transition: border .1s .15s ease;
-    border-right: 7px solid $color_accent_highlight;
+    transition: border 0.1s 0.1s ease;
+    border-bottom: 1vh solid $color_accent_highlight;
 
     &:before {
-      background: #fff;
-      transition: width 0.05s .02s ease-in-out;
-      width: 100%;
+      background: rgb(0, 139, 28);
+      transition: width 0.05s 0.02s ease-in-out;
+      width: 100vw;
     }
   }
 }
-
