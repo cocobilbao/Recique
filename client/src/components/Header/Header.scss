@@ -1,3 +1,55 @@
 #Header{
-  height: 10vh;
+  height: 18vh;
 }
+
+$color_accent: #447fff;
+$color_accent_highlight: lighten($color_accent, 6);
+$color_grey: #e2e2fb;
+
+.menu {
+  background: #efefff;
+  color: #000;
+  height: 100%;
+  border-radius: 4px;
+  width: 100vw;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, .4);
+  overflow: hidden;
+
+
+  &-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    transition: background 0.15s ease-out;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    width: 33vw;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      z-index: -1;
+      width: 0%;
+    }
+
+    &:hover {
+      background: $color_grey;
+    }
+  }
+
+  .selected {
+    transition: border .1s .15s ease;
+    border-right: 7px solid $color_accent_highlight;
+
+    &:before {
+      background: #fff;
+      transition: width 0.05s .02s ease-in-out;
+      width: 100%;
+    }
+  }
+}
+
