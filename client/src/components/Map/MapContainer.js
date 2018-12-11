@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Map, InfoWindow, Marker, GoogleApiWrapper } from "google-maps-react";
 
-import "./MapContainer.scss";
 
 export class MapContainer extends Component {
   constructor(props) {
@@ -51,8 +50,8 @@ export class MapContainer extends Component {
           position={this.state.currentLatLng}
           icon={{
             url: "https://lh3.googleusercontent.com/-HC9CYmcjF3E/U3N2rnp-W3I/AAAAAAAABMw/qSJAzyyGp1o/w265-h353-n/14%2B-%2B2",
-            anchor: new google.maps.Point(32, 32),
-            scaledSize: new google.maps.Size(64, 64)
+            anchor: new this.props.google.maps.Point(32, 32),
+            scaledSize: new this.props.google.maps.Size(52, 64)
           }}
         />
       </Map>
