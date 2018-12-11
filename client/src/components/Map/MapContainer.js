@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import { Map, InfoWindow, Marker, GoogleApiWrapper } from "google-maps-react";
 import ropaData from "../../ropa.json";
 import oilData from "../../oil.json";
+import batteriesData from "../../batteries.json";
+import pharmacyData from "../../pharmacy.json";
+import cleanPointMovData from "../../cleanPointMov.json";
+// import cleanPointData from "../../cleanPoint.json";
 
 export class MapContainer extends Component {
   constructor(props) {
@@ -9,13 +13,21 @@ export class MapContainer extends Component {
     this.state = {
       ropaData,
       oilData,
+      batteriesData,
+      pharmacyData,
+      cleanPointMovData,
+      // cleanPointData,
       currentLatLng: {
         lat: 40,
         lng: 0
       },
       isMarkerShown: false,
       isSearchingClothes: false,
-      isSearchingOil: false
+      isSearchingOil: false,
+      isSearchingBatteries: false,
+      isSearchingPharmacy: false,
+      isSearchingCleanPointMov: false,
+      isSearchingCleanPoint: false
     };
   }
 
@@ -32,7 +44,7 @@ export class MapContainer extends Component {
       });
     }
   };
-  
+
   showRopa = () => {
     if (this.state.isSearchingClothes) {
       this.setState({ ...this.state, isSearchingClothes: false });
@@ -48,6 +60,38 @@ export class MapContainer extends Component {
       this.setState({ ...this.state, isSearchingOil: true });
     }
   };
+  
+  showBatteries = () => {
+    if (this.state.isSearchingBatteries) {
+      this.setState({ ...this.state, isSearchingBatteries: false });
+    } else {
+      this.setState({ ...this.state, isSearchingBatteries: true });
+    }
+  };
+
+  showPharmacy = () => {
+    if (this.state.isSearchingPharmacy) {
+      this.setState({ ...this.state, isSearchingPharmacy: false });
+    } else {
+      this.setState({ ...this.state, isSearchingPharmacy: true });
+    }
+  };
+
+  showCleanPointMov = () => {
+    if (this.state.isSearchingCleanPointMov) {
+      this.setState({ ...this.state, isSearchingCleanPointMov: false });
+    } else {
+      this.setState({ ...this.state, isSearchingCleanPointMov: true });
+    }
+  };
+
+  showCleanPoint = () => {
+    if (this.state.isSearchingCleanPoint) {
+      this.setState({ ...this.state, isSearchingCleanPoint: false });
+    } else {
+      this.setState({ ...this.state, isSearchingCleanPoint: true });
+    }
+  };
 
   componentDidMount() {
     this.showCurrentLocation();
@@ -60,10 +104,33 @@ export class MapContainer extends Component {
     };
     return (
       <div>
-        <input type="checkbox" onChange={this.showRopa} />
-        <h4>Ropa</h4>
-        <input type="checkbox" onChange={this.showOil} />
-        <h4>Aceite vegetal</h4>
+        <div>
+          <div>
+            <input type="checkbox" onChange={this.showRopa} />
+            <h4>Ropa</h4>
+          </div>
+          <div>
+            <input type="checkbox" onChange={this.showOil} />
+            <h4>Aceite vegetal</h4>
+          </div>
+          <div>
+            <input type="checkbox" onChange={this.showBatteries} />
+            <h4>Pilas</h4>
+          </div>
+          {/* <div>
+            <input type="checkbox" onChange={this.showPharmacy} />
+            <h4>Punto sigre</h4>
+          </div> */}
+           <div>
+            <input type="checkbox" onChange={this.showCleanPointMov} />
+            <h4>Punto limpio móvil</h4>
+          </div>
+          <div>
+            <input type="checkbox" onChange={this.showCleanPoint} />
+            <h4>Punto limpio</h4>
+          </div>
+        </div>
+
         <Map
           class="Map"
           google={this.props.google}
@@ -87,6 +154,37 @@ export class MapContainer extends Component {
               const pos = {
                 lat: oil.LATITUD,
                 lng: oil.LONGITUD
+              };
+
+              return <Marker position={pos} />;
+            })}
+
+                {this.state.isSearchingBatteries &&
+            this.state.batteriesData.map(batteries => {
+              const pos = {
+                lat: batteries.Latitud,
+                lng: batteries.Longitud,
+              };
+
+              return <Marker position={pos} />;
+            })}
+
+       {this.state.isSearchingPharmacy &&
+            this.state.pharmacyData.map(pharmacy => {
+              const pos = {
+                lat: pharmacy.Latitud,
+                lng: pharmacy.Longitud,
+              };
+
+              return <Marker position={pos} />;
+            })}
+
+
+       {this.state.isSearchingCleanPointMov &&
+            this.state.cleanPointMovData.map(cleanPointMov => {
+              const pos = {
+                lat: cleanPointMov.LATITUD,
+                lng: cleanPointMov.LONGITUD,
               };
 
               return <Marker position={pos} />;
