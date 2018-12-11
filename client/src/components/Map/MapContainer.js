@@ -1,16 +1,18 @@
 import React, { Component } from "react";
 import { Map, InfoWindow, Marker, GoogleApiWrapper } from "google-maps-react";
-
+import ropaData from "../../ropa.json";
 
 export class MapContainer extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      ropaData,
       currentLatLng: {
         lat: 40,
         lng: 0
       },
-      isMarkerShown: false
+      isMarkerShown: false,
+      isSearchingClothes: false
     };
   }
 
@@ -27,6 +29,13 @@ export class MapContainer extends Component {
       });
     }
   };
+  showRopa = () =>{
+    if (this.state.isSearchingClothes){
+    this.setState({...this.state, isSearchingClothes:false})
+    }else{
+      this.setState({...this.state, isSearchingClothes:true})
+    }
+  }
   componentWillMount() {
     this.showCurrentLocation();
     console.log(this.state.currentLatLng.lat);
@@ -37,24 +46,38 @@ export class MapContainer extends Component {
       height: "90%"
     };
     return (
-      <Map
-        class="Map"
-        google={this.props.google}
-        style={style}
-        center={this.state.currentLatLng}
-        zoom={15}
-        onClick={this.onMapClicked}
-      >
-        <Marker
-          name={"Your position"}
-          position={this.state.currentLatLng}
-          icon={{
-            url: "https://lh3.googleusercontent.com/-HC9CYmcjF3E/U3N2rnp-W3I/AAAAAAAABMw/qSJAzyyGp1o/w265-h353-n/14%2B-%2B2",
-            anchor: new this.props.google.maps.Point(32, 32),
-            scaledSize: new this.props.google.maps.Size(52, 64)
-          }}
-        />
-      </Map>
+      <div>
+        <input type="checkbox" onChange={this.showRopa}/><h4>Ropa</h4>
+        <Map
+          class="Map"
+          google={this.props.google}
+          style={style}
+          center={this.state.currentLatLng}
+          zoom={15}
+          onClick={this.onMapClicked}
+        >
+          {this.state.isSearchingClothes &&
+            this.state.ropaData.map(ropa => {
+              const pos = {
+                lat: ropa.LATITUD,
+                lng: ropa.LONGITUD
+              };
+
+              return <Marker position={pos} />;
+            })}
+
+          <Marker
+            name={"Your position"}
+            position={this.state.currentLatLng}
+            icon={{
+              url:
+                "https://lh3.googleusercontent.com/-HC9CYmcjF3E/U3N2rnp-W3I/AAAAAAAABMw/qSJAzyyGp1o/w265-h353-n/14%2B-%2B2",
+              anchor: new this.props.google.maps.Point(32, 32),
+              scaledSize: new this.props.google.maps.Size(52, 64)
+            }}
+          />
+        </Map>
+      </div>
     );
   }
 }

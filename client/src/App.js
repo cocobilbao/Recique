@@ -6,6 +6,9 @@ import AuthService from "./components/auth/AuthService";
 import { Route, Link } from "react-router-dom";
 import MapContainer from "./components/Map/MapContainer";
 
+
+
+
 class App extends Component {
   constructor() {
     super();
