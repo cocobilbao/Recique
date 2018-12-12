@@ -1,14 +1,20 @@
 import React, { Component } from "react";
-import { Map, InfoWindow, Marker, GoogleApiWrapper } from "google-maps-react";
+import {
+  Map,
+  InfoWindow,
+  Marker,
+  GoogleApiWrapper,
+  Circle
+} from "google-maps-react";
 import ropaData from "../../ropa.json";
 import oilData from "../../oil.json";
 import batteriesData from "../../batteries.json";
 import pharmacyData from "../../pharmacy.json";
 import cleanPointMovData from "../../cleanPointMov.json";
 import cleanPointData from "../../cleanPoint.json";
-import "./MapContainer.scss"
+import "./MapContainer.scss";
 
-import utmObj from 'utm-latlng'
+import utmObj from "utm-latlng";
 
 export class MapContainer extends Component {
   constructor(props) {
@@ -48,12 +54,16 @@ export class MapContainer extends Component {
     }
   };
 
-  showRopa = (e) => {
-    e.preventDefault()
+  showRopa = e => {
+    e.preventDefault();
     if (this.state.isSearchingClothes) {
-      this.setState({ ...this.state, isSearchingClothes: false }, ()=>  e.preventDefault());
+      this.setState({ ...this.state, isSearchingClothes: false }, () =>
+        e.preventDefault()
+      );
     } else {
-      this.setState({ ...this.state, isSearchingClothes: true },  ()=>  e.preventDefault());
+      this.setState({ ...this.state, isSearchingClothes: true }, () =>
+        e.preventDefault()
+      );
     }
   };
 
@@ -97,6 +107,23 @@ export class MapContainer extends Component {
     }
   };
 
+  nearMe = pos => {
+    const objPos = new this.props.google.maps.LatLng(pos.lat, pos.lng);
+    const myPos = new this.props.google.maps.LatLng(
+      this.state.currentLatLng.lat,
+      this.state.currentLatLng.lng
+    );
+    if (
+      this.props.google.maps.geometry.spherical.computeDistanceBetween(
+        objPos,
+        myPos
+      ) <= 1000
+    ) {
+      return true;
+    }
+    return false;
+  };
+
   componentDidMount() {
     this.showCurrentLocation();
   }
@@ -105,15 +132,19 @@ export class MapContainer extends Component {
       width: "100%",
       height: "90%"
     };
-    let utm = new utmObj("ETRS89")
-    utm.setEllipsoid("ETRS89")
-    console.log(utm.convertUtmToLatLng(438168.0647, 4473686.053, 30, "N"))
-    console.log(utm.convertLatLngToUtm(40.4315754, -3.7073549, 2))
+    const coords = { lat: -21.805149, lng: -49.0921657 };
+    let utm = new utmObj("ETRS89");
+    utm.setEllipsoid("ETRS89");
+    console.log(utm.convertUtmToLatLng(440001, 4475899, 30, "N"));
+    console.log(utm.convertLatLngToUtm(40.4315754, -3.7073549, 2));
     return (
       <div>
         <div>
           <div id="ck-button">
-          <label><input type="checkbox" onChange={this.showRopa} /> <span>Ropa</span> </label> 
+            <label>
+              <input type="checkbox" onChange={this.showRopa} />{" "}
+              <span>Ropa</span>{" "}
+            </label>
           </div>
 
           <input type="checkbox" onChange={this.showOil} />
@@ -188,7 +219,7 @@ export class MapContainer extends Component {
                 lng: cleanPointMov.LONGITUD
               };
 
-              return <Marker position={pos} />;
+              if (this.nearMe(pos)) return <Marker position={pos} />;
             })}
 
           {this.state.isSearchingCleanPoint &&
@@ -200,7 +231,7 @@ export class MapContainer extends Component {
 
               return <Marker position={pos} />;
             })}
-
+          {/* <Circle /> */}
           <Marker
             name={"Your position"}
             position={this.state.currentLatLng}
@@ -218,5 +249,7 @@ export class MapContainer extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: "AIzaSyDpK3H8uHIj99teUQ5u0J6z7uDH9_DgEko"
+  apiKey: "AIzaSyDpK3H8uHIj99teUQ5u0J6z7uDH9_DgEko",
+  libraries: ["geometry"],
+  language: "en"
 })(MapContainer);
