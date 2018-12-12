@@ -6,6 +6,8 @@ import batteriesData from "../../batteries.json";
 import pharmacyData from "../../pharmacy.json";
 import cleanPointMovData from "../../cleanPointMov.json";
 import cleanPointData from "../../cleanPoint.json";
+import plasticData from "../../plastic.json";
+import glassData from "../../glass.json";
 import "./MapContainer.scss"
 
 import utmObj from 'utm-latlng'
@@ -20,6 +22,8 @@ export class MapContainer extends Component {
       pharmacyData,
       cleanPointMovData,
       cleanPointData,
+      plasticData,
+      glassData,
       currentLatLng: {
         lat: 40,
         lng: 0
@@ -30,7 +34,9 @@ export class MapContainer extends Component {
       isSearchingBatteries: false,
       isSearchingPharmacy: false,
       isSearchingCleanPointMov: false,
-      isSearchingCleanPoint: false
+      isSearchingCleanPoint: false,
+      isSearchingPlastic: false,
+      isSearchingGlass: false
     };
   }
 
@@ -97,6 +103,22 @@ export class MapContainer extends Component {
     }
   };
 
+  showPlastic = () => {
+    if (this.state.isSearchingPlastic) {
+      this.setState({ ...this.state, isSearchingPlastic: false });
+    } else {
+      this.setState({ ...this.state, isSearchingPlastic: true });
+    }
+  };
+
+  showGlass = () => {
+    if (this.state.isSearchingGlass) {
+      this.setState({ ...this.state, isSearchingGlass: false });
+    } else {
+      this.setState({ ...this.state, isSearchingGlass: true });
+    }
+  };
+
   componentDidMount() {
     this.showCurrentLocation();
   }
@@ -115,7 +137,10 @@ export class MapContainer extends Component {
           <div id="ck-button">
           <label><input type="checkbox" onChange={this.showRopa} /> <span>Ropa</span> </label> 
           </div>
-<<<<<<< HEAD
+          <div>
+            <input type="checkbox" onChange={this.showOil} />
+            <h4>Aceite vegetal</h4>
+          </div>
           <div>
             <input type="checkbox" onChange={this.showBatteries} />
             <h4>Pilas</h4>
@@ -132,24 +157,14 @@ export class MapContainer extends Component {
             <input type="checkbox" onChange={this.showCleanPoint} />
             <h4>Punto limpio</h4>
           </div>
-=======
-
-          <input type="checkbox" onChange={this.showOil} />
-          <h4>Aceite vegetal</h4>
-
-          <input type="checkbox" onChange={this.showBatteries} />
-          <h4>Pilas</h4>
-
-          {/* 
-            <input type="checkbox" onChange={this.showPharmacy} />
-            <h4>Punto sigre</h4> */}
-
-          <input type="checkbox" onChange={this.showCleanPointMov} />
-          <h4>Punto limpio móvil</h4>
-
-          <input type="checkbox" onChange={this.showCleanPoint} />
-          <h4>Punto limpio</h4>
->>>>>>> 9f4a2a2ad6918536ee19aa874db00abea950824e
+          <div>
+            <input type="checkbox" onChange={this.showPlastic} />
+            <h4>Envases</h4>
+          </div>
+          <div>
+            <input type="checkbox" onChange={this.showGlass} />
+            <h4>Vidrio</h4>
+          </div>
         </div>
 
         <Map
@@ -192,15 +207,7 @@ export class MapContainer extends Component {
 
           {this.state.isSearchingPharmacy &&
             this.state.pharmacyData.map(pharmacy => {
-              const pos = {
-<<<<<<< HEAD
-                lat: pharmacy.LATITUD,
-                lng: pharmacy.LONGITUD,
-=======
-                lat: pharmacy.Latitud,
-                lng: pharmacy.Longitud
->>>>>>> 9f4a2a2ad6918536ee19aa874db00abea950824e
-              };
+              const pos = utm.convertUtmToLatLng(pharmacy.LATITUD, pharmacy.LONGITUD, 30, "N");
 
               return <Marker position={pos} />;
             })}
@@ -224,6 +231,23 @@ export class MapContainer extends Component {
 
               return <Marker position={pos} />;
             })}
+
+                  {this.state.isSearchingPlastic &&
+            this.state.plasticData.map(plastic => {
+              const pos = utm.convertUtmToLatLng(plastic.latitud, plastic.longitud, 30, "N");
+
+              return <Marker position={pos} />;
+            })}
+
+                 {this.state.isSearchingGlass &&
+            this.state.glassData.map(glass => {
+              const pos = utm.convertUtmToLatLng(glass.LATITUD, glass.LONGITUD, 30, "N");
+         
+
+              return <Marker position={pos} />;
+            })}
+
+            
 
           <Marker
             name={"Your position"}
