@@ -5,7 +5,7 @@ import oilData from "../../oil.json";
 import batteriesData from "../../batteries.json";
 import pharmacyData from "../../pharmacy.json";
 import cleanPointMovData from "../../cleanPointMov.json";
-// import cleanPointData from "../../cleanPoint.json";
+import cleanPointData from "../../cleanPoint.json";
 
 export class MapContainer extends Component {
   constructor(props) {
@@ -16,7 +16,7 @@ export class MapContainer extends Component {
       batteriesData,
       pharmacyData,
       cleanPointMovData,
-      // cleanPointData,
+      cleanPointData,
       currentLatLng: {
         lat: 40,
         lng: 0
@@ -185,6 +185,16 @@ export class MapContainer extends Component {
               const pos = {
                 lat: cleanPointMov.LATITUD,
                 lng: cleanPointMov.LONGITUD,
+              };
+
+              return <Marker position={pos} />;
+            })}
+
+                   {this.state.isSearchingCleanPoint &&
+            this.state.cleanPointData.map(cleanPoint => {
+              const pos = {
+                lat: cleanPoint.location.latitude,
+                lng: cleanPoint.location.longitude,
               };
 
               return <Marker position={pos} />;
