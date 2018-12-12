@@ -1,0 +1,166 @@
+[
+  {
+    "title": "Punto Limpio Fijo del Ayuntamiento de Madrid. Distrito de Arganzuela",
+
+    "locality": "MADRID",
+    "postal-code": "28045",
+    "street-address": "CALLE ESTRELLA DENEBOLA 5",
+    "location": {
+      "latitude": "40.39419901357015",
+      "longitude": "-3.6834210425750737"
+    }
+  },
+
+  {
+    "title": "Punto Limpio Fijo del Ayuntamiento de Madrid. Distrito de Barajas",
+    "locality": "MADRID",
+    "postal-code": "28042",
+    "street-address": "CALLE ALHAURIN 5",
+    "location": {
+      "latitude": "40.473907649051704",
+      "longitude": "-3.5855350682202047"
+    }
+  },
+  {
+    "title": "Punto Limpio Fijo del Ayuntamiento de Madrid. Distrito de Chamartín",
+    "locality": "MADRID",
+    "postal-code": "28016",
+    "street-address": "AVENIDA ALFONSO XIII 128 ENTRADA JUNTO GASOLINERA",
+    "location": {
+      "latitude": "40.45887476564644",
+      "longitude": "-3.6664670709154676"
+    }
+  },
+  {
+    "title": "Punto Limpio Fijo del Ayuntamiento de Madrid. Distrito de Ciudad Lineal",
+    "locality": "MADRID",
+    "postal-code": "28032",
+    "street-address": "AVENIDA DAROCA 104 JUNTO AL CEMENTERIO DE LA ALMUDENA",
+    "location": {
+      "latitude": "40.41826330408995",
+      "longitude": "-3.630928382853009"
+    }
+  },
+
+  {
+    "title": "Punto Limpio Fijo del Ayuntamiento de Madrid. Distrito de Fuencarral - El Pardo",
+    "locality": "MADRID",
+    "postal-code": "28034",
+    "street-address": "CALLE UBEDA 6 C/V ISLA DE AROSA",
+    "location": {
+      "latitude": "40.48225121586361",
+      "longitude": "-3.71646391915977"
+    }
+  },
+
+  {
+    "title": "Punto Limpio Fijo del Ayuntamiento de Madrid. Distrito de Hortaleza",
+
+    "locality": "MADRID",
+    "postal-code": "28033",
+    "street-address": "CALLE TOMAS REDONDO 8",
+    "location": {
+      "latitude": "40.47006424276577",
+      "longitude": "-3.6277914577312402"
+    }
+  },
+
+  {
+    "title": "Punto Limpio Fijo del Ayuntamiento de Madrid. Distrito de Latina",
+    "locality": "MADRID",
+    "postal-code": "28047",
+    "street-address": "CALLE CONCEJAL FRANCISCO JOSE JIMENEZ MARTIN 5 FRENTE A C/ GOTARRENDURA",
+    "location": {
+      "latitude": "40.4016757685611",
+      "longitude": "-3.736372909535269"
+    }
+  },
+
+  {
+    "title": "Punto Limpio Fijo del Ayuntamiento de Madrid. Distrito de Moncloa - Aravaca",
+    "locality": "MADRID",
+    "postal-code": "28040",
+    "street-address": "PASEO SENDA DEL REY ACCESO AVDA. PUERTA DE HIERRO SALIDA 6 A-6 FACULTAD DE VETERINARIA",
+    "location": {
+      "latitude": "40.451963071822604",
+      "longitude": "-3.7403391301631927"
+    }
+  },
+
+  {
+    "title": "Punto Limpio Fijo del Ayuntamiento de Madrid. Distrito de Moratalaz",
+    "locality": "MADRID",
+    "postal-code": "28030",
+    "street-address": "CALLE ARROYO DE LA MEDIA LEGUA 72",
+    "location": {
+      "latitude": "40.414609663505665",
+      "longitude": "-3.6513204448781815"
+    }
+  },
+
+  {
+    "title": "Punto Limpio Fijo del Ayuntamiento de Madrid. Distrito de Puente de Vallecas",
+    "locality": "MADRID",
+    "postal-code": "28038",
+    "street-address": "CALLE JOSE PAULETE 43",
+    "location": {
+      "latitude": "40.39406006570005",
+      "longitude": "-3.654492342880955"
+    }
+  },
+
+  {
+    "title": "Punto Limpio Fijo del Ayuntamiento de Madrid. Distrito de San Blas-Canillejas",
+    "locality": "MADRID",
+    "postal-code": "28037",
+    "street-address": "CALLE SAN ROMUALDO 20 C/V c/ Maratón",
+    "location": {
+      "latitude": "40.4407089",
+      "longitude": "-3.6230157"
+    }
+  },
+
+  {
+    "title": "Punto Limpio Fijo del Ayuntamiento de Madrid. Distrito de Usera",
+    "locality": "MADRID",
+    "postal-code": "28026",
+    "street-address": "CALLE CRISTO DE LA VICTORIA 245",
+    "location": {
+      "latitude": "40.37882471603663",
+      "longitude": "-3.7096418581029984"
+    }
+  },
+
+  {
+    "title": "Punto Limpio Fijo del Ayuntamiento de Madrid. Distrito de Vicálvaro",
+    "locality": "MADRID",
+    "postal-code": "28032",
+    "street-address": "CALLE SEPIOLITA 6 CON VUELTA POLIDEPORTIVO",
+    "location": {
+      "latitude": "40.40676752985184",
+      "longitude": "-3.598776933365321"
+    }
+  },
+
+  {
+    "title": "Punto Limpio Fijo del Ayuntamiento de Madrid. Distrito de Villa de Vallecas",
+    "locality": "MADRID",
+    "postal-code": "28031",
+    "street-address": "CALLE LUIS I 40",
+    "location": {
+      "latitude": "40.375993577726476",
+      "longitude": "-3.6438334111886936"
+    }
+  },
+
+  {
+    "title": "Punto Limpio Fijo del Ayuntamiento de Madrid. Distrito de Villaverde",
+    "locality": "MADRID",
+    "postal-code": "28021",
+    "street-address": "CALLE BASCUÑUELOS 3",
+    "location": {
+      "latitude": "40.33860368148312",
+      "longitude": "-3.7103387295498003"
+    }
+  }
+]
