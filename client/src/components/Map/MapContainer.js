@@ -117,10 +117,10 @@ export class MapContainer extends Component {
             <input type="checkbox" onChange={this.showBatteries} />
             <h4>Pilas</h4>
           </div>
-          {/* <div>
+          <div>
             <input type="checkbox" onChange={this.showPharmacy} />
             <h4>Punto sigre</h4>
-          </div> */}
+          </div>
            <div>
             <input type="checkbox" onChange={this.showCleanPointMov} />
             <h4>Punto limpio móvil</h4>
@@ -172,8 +172,8 @@ export class MapContainer extends Component {
        {this.state.isSearchingPharmacy &&
             this.state.pharmacyData.map(pharmacy => {
               const pos = {
-                lat: pharmacy.Latitud,
-                lng: pharmacy.Longitud,
+                lat: pharmacy.LATITUD,
+                lng: pharmacy.LONGITUD,
               };
 
               return <Marker position={pos} />;
