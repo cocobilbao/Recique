@@ -54,54 +54,16 @@ export class MapContainer extends Component {
     }
   };
 
-  showRopa = () => {
-    if (this.state.isSearchingClothes) {
-      this.setState({ ...this.state, isSearchingClothes: false });
+  show = field => {
+    let newClonedState = { ...this.state };
+    if (this.state[field]) {
+      newClonedState[field] = false;
+      this.setState(newClonedState);
     } else {
-      this.setState({ ...this.state, isSearchingClothes: true });
+      newClonedState[field] = true;
+      this.setState(newClonedState);
     }
   };
-
-  showOil = () => {
-    if (this.state.isSearchingOil) {
-      this.setState({ ...this.state, isSearchingOil: false });
-    } else {
-      this.setState({ ...this.state, isSearchingOil: true });
-    }
-  };
-
-  showBatteries = () => {
-    if (this.state.isSearchingBatteries) {
-      this.setState({ ...this.state, isSearchingBatteries: false });
-    } else {
-      this.setState({ ...this.state, isSearchingBatteries: true });
-    }
-  };
-
-  showPharmacy = () => {
-    if (this.state.isSearchingPharmacy) {
-      this.setState({ ...this.state, isSearchingPharmacy: false });
-    } else {
-      this.setState({ ...this.state, isSearchingPharmacy: true });
-    }
-  };
-
-  showCleanPointMov = () => {
-    if (this.state.isSearchingCleanPointMov) {
-      this.setState({ ...this.state, isSearchingCleanPointMov: false });
-    } else {
-      this.setState({ ...this.state, isSearchingCleanPointMov: true });
-    }
-  };
-
-  showCleanPoint = () => {
-    if (this.state.isSearchingCleanPoint) {
-      this.setState({ ...this.state, isSearchingCleanPoint: false });
-    } else {
-      this.setState({ ...this.state, isSearchingCleanPoint: true });
-    }
-  };
-
   nearMe = pos => {
     const objPos = new this.props.google.maps.LatLng(pos.lat, pos.lng);
     const myPos = new this.props.google.maps.LatLng(
@@ -125,131 +87,144 @@ export class MapContainer extends Component {
   render() {
     const style = {
       width: "100%",
-      height: "90%"
+      height: "100%",
     };
-    const coords = { lat: -21.805149, lng: -49.0921657 };
     let utm = new utmObj("ETRS89");
     utm.setEllipsoid("ETRS89");
-    console.log(utm.convertUtmToLatLng(440001, 4475899, 30, "N"));
-    console.log(utm.convertLatLngToUtm(40.4315754, -3.7073549, 2));
     return (
-      <div>
-        <div>
+      <div id="mapAndFilters">
+        <div id="filters">
           <div id="ck-button">
             <label>
-              <input type="checkbox" onChange={this.showRopa} />{" "}
+              <input
+                type="checkbox"
+                onChange={() => this.show("isSearchingClothes")}
+              />{" "}
               <span>Ropa</span>{" "}
             </label>
           </div>
 
-          <input type="checkbox" onChange={this.showOil} />
-          <h4>Aceite vegetal</h4>
+          <div id="ck-button">
+            <label>
+              <input
+                type="checkbox"
+                onChange={() => this.show("isSearchingOil")}
+              />{" "}
+              <span>Aceite vegetal</span>{" "}
+            </label>
+          </div>
 
-          <input type="checkbox" onChange={this.showBatteries} />
-          <h4>Pilas</h4>
+          <div id="ck-button">
+            <label>
+              <input
+                type="checkbox"
+                onChange={() => this.show("isSearchingBatteries")}
+              />{" "}
+              <span>Pilas</span>{" "}
+            </label>
+          </div>
 
-          {/* 
-            <input type="checkbox" onChange={this.showPharmacy} />
-            <h4>Punto sigre</h4> */}
+          <div id="ck-button">
+            <label>
+              <input
+                type="checkbox"
+                onChange={() => this.show("showCleanPointMov")}
+              />{" "}
+              <span>Punto limpio movil</span>{" "}
+            </label>
+          </div>
 
-          <input type="checkbox" onChange={this.showCleanPointMov} />
-          <h4>Punto limpio móvil</h4>
-
-          <input type="checkbox" onChange={this.showCleanPoint} />
-          <h4>Punto limpio</h4>
+          <div id="ck-button">
+            <label>
+              <input
+                type="checkbox"
+                onChange={() => this.show("showCleanPoint")}
+              />{" "}
+              <span>Punto limpio</span>{" "}
+            </label>
+          </div>
         </div>
+        <div id="map">
+          <Map
+            className="Map"
+            google={this.props.google}
 
-        <Map
-          class="Map"
-          google={this.props.google}
-          style={style}
-          center={this.state.currentLatLng}
-          zoom={15}
-          onClick={this.onMapClicked}
-        >
-          {this.state.isSearchingClothes &&
-            this.state.ropaData.map(ropa => {
-              const pos = {
-                lat: ropa.LATITUD,
-                lng: ropa.LONGITUD
-              };
+            center={this.state.currentLatLng}
+            zoom={15}
+            onClick={this.onMapClicked}
+          >
+            {this.state.isSearchingClothes &&
+              this.state.ropaData.map(ropa => {
+                const pos = {
+                  lat: ropa.LATITUD,
+                  lng: ropa.LONGITUD
+                };
 
-              return <Marker position={pos} />;
-            })}
+                if (this.nearMe(pos)) return <Marker position={pos} />;
+              })}
 
-          {this.state.isSearchingOil &&
-            this.state.oilData.map(oil => {
-              const pos = {
-                lat: oil.LATITUD,
-                lng: oil.LONGITUD
-              };
+            {this.state.isSearchingOil &&
+              this.state.oilData.map(oil => {
+                const pos = {
+                  lat: oil.LATITUD,
+                  lng: oil.LONGITUD
+                };
 
-              return <Marker position={pos} />;
-            })}
+                if (this.nearMe(pos)) return <Marker position={pos} />;
+              })}
 
-          {this.state.isSearchingBatteries &&
-            this.state.batteriesData.map(batteries => {
-              const pos = {
-                lat: batteries.Latitud,
-                lng: batteries.Longitud
-              };
+            {this.state.isSearchingBatteries &&
+              this.state.batteriesData.map(batteries => {
+                const pos = {
+                  lat: batteries.Latitud,
+                  lng: batteries.Longitud
+                };
 
-              return <Marker position={pos} />;
-            })}
+                if (this.nearMe(pos)) return <Marker position={pos} />;
+              })}
 
-          {this.state.isSearchingPharmacy &&
-            this.state.pharmacyData.map(pharmacy => {
-              const pos = {
-                lat: pharmacy.Latitud,
-                lng: pharmacy.Longitud
-              };
+            {this.state.isSearchingPharmacy &&
+              this.state.pharmacyData.map(pharmacy => {
+                const pos = {
+                  lat: pharmacy.Latitud,
+                  lng: pharmacy.Longitud
+                };
 
-              return <Marker position={pos} />;
-            })}
+                if (this.nearMe(pos)) return <Marker position={pos} />;
+              })}
 
-          {this.state.isSearchingCleanPointMov &&
-            this.state.cleanPointMovData.map(cleanPointMov => {
-              const pos = {
-                lat: cleanPointMov.LATITUD,
-                lng: cleanPointMov.LONGITUD
-              };
+            {this.state.isSearchingCleanPointMov &&
+              this.state.cleanPointMovData.map(cleanPointMov => {
+                const pos = {
+                  lat: cleanPointMov.LATITUD,
+                  lng: cleanPointMov.LONGITUD
+                };
 
-              if (this.nearMe(pos)) return <Marker position={pos} />;
-            })}
+                if (this.nearMe(pos)) return <Marker position={pos} />;
+              })}
 
-          {this.state.isSearchingCleanPoint &&
-            this.state.cleanPointData.map(cleanPoint => {
-              const pos = {
-                lat: cleanPoint.location.latitude,
-                lng: cleanPoint.location.longitude
-              };
+            {this.state.isSearchingCleanPoint &&
+              this.state.cleanPointData.map(cleanPoint => {
+                const pos = {
+                  lat: cleanPoint.location.latitude,
+                  lng: cleanPoint.location.longitude
+                };
 
-              return <Marker position={pos} />;
-            })}
-          <Circle
-            radius={1200}
-            center={coords}
-            onMouseover={() => console.log("mouseover")}
-            onClick={() => console.log("click")}
-            onMouseout={() => console.log("mouseout")}
-            strokeColor="transparent"
-            strokeOpacity={0}
-            strokeWeight={5}
-            fillColor="#FF0000"
-            fillOpacity={0.2}
-          />
+                if (this.nearMe(pos)) return <Marker position={pos} />;
+              })}
 
-          <Marker
-            name={"Your position"}
-            position={this.state.currentLatLng}
-            icon={{
-              url:
-                "https://lh3.googleusercontent.com/-HC9CYmcjF3E/U3N2rnp-W3I/AAAAAAAABMw/qSJAzyyGp1o/w265-h353-n/14%2B-%2B2",
-              anchor: new this.props.google.maps.Point(32, 32),
-              scaledSize: new this.props.google.maps.Size(52, 64)
-            }}
-          />
-        </Map>
+            <Marker
+              name={"Your position"}
+              position={this.state.currentLatLng}
+              icon={{
+                url:
+                  "https://lh3.googleusercontent.com/-HC9CYmcjF3E/U3N2rnp-W3I/AAAAAAAABMw/qSJAzyyGp1o/w265-h353-n/14%2B-%2B2",
+                anchor: new this.props.google.maps.Point(32, 32),
+                scaledSize: new this.props.google.maps.Size(52, 64)
+              }}
+            />
+          </Map>
+        </div>
       </div>
     );
   }

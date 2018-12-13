@@ -19,39 +19,44 @@ export default class Header extends Component {
           item.classList.remove("selected");
         }
       });
-      e.target.classList.add("selected")
+      e.target.classList.add("selected");
     }
 
     const navBar = this.props.user ? (
       <div>
-        <Link class="nav-item" to="/">
+        <Link class="menu-item" to="/">
           Home
         </Link>{" "}
         -{" "}
-        <Link class="nav-item" to="/login" onClick={this.props.logout}>
+        <Link class="menu-item" to="/login" onClick={this.props.logout}>
           Logout
         </Link>
       </div>
     ) : (
       <div>
         <Link to="/">
-          <div class="menu-item" onClick={toggleSelect}>Home</div>
+          <div class="menu-item" onClick={toggleSelect}>
+            Home
+          </div>
         </Link>
         <Link to="/signup">
-          <div class="menu-item" onClick={toggleSelect}>Signup</div>
+          <div class="menu-item" onClick={toggleSelect}>
+            Signup
+          </div>
         </Link>{" "}
         <Link to="/login">
-          <div class="menu-item" onClick={toggleSelect}>Login</div>
+          <div class="menu-item" onClick={toggleSelect}>
+            Login
+          </div>
         </Link>
       </div>
     );
 
     return (
       <div id="Header">
-      <div class="brand">
-      <h1>hola</h1>
-      </div>
-
+        <div class="brand">
+          <h1>hola</h1>
+        </div>
         <nav class="menu">{navBar}</nav>
       </div>
     );

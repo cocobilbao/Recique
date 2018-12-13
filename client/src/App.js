@@ -7,9 +7,6 @@ import { Route, Link, Switch } from "react-router-dom";
 import MapContainer from "./components/Map/MapContainer";
 import Header from "./components/Header/Header";
 
-
-
-
 class App extends Component {
   constructor() {
     super();
@@ -44,13 +41,16 @@ class App extends Component {
       <div className="App">
         <Header user={this.state.user} logout={this.logout} />
         <Switch>
-        <Route
-          path="/signup"
-          render={() => <Signup getUser={this.getUser} />}
-        />
-        <Route path="/login" render={() => <Login getUser={this.getUser} />} />
-        <MapContainer />
+          <Route
+            path="/signup"
+            render={() => <Signup getUser={this.getUser} />}
+          />
+          <Route
+            path="/login"
+            render={() => <Login getUser={this.getUser} />}
+          />
         </Switch>
+        <MapContainer />
       </div>
     );
   }
