@@ -54,16 +54,11 @@ export class MapContainer extends Component {
     }
   };
 
-  showRopa = e => {
-    e.preventDefault();
+  showRopa = () => {
     if (this.state.isSearchingClothes) {
-      this.setState({ ...this.state, isSearchingClothes: false }, () =>
-        e.preventDefault()
-      );
+      this.setState({ ...this.state, isSearchingClothes: false });
     } else {
-      this.setState({ ...this.state, isSearchingClothes: true }, () =>
-        e.preventDefault()
-      );
+      this.setState({ ...this.state, isSearchingClothes: true });
     }
   };
 
@@ -231,7 +226,19 @@ export class MapContainer extends Component {
 
               return <Marker position={pos} />;
             })}
-          {/* <Circle /> */}
+          <Circle
+            radius={1200}
+            center={coords}
+            onMouseover={() => console.log("mouseover")}
+            onClick={() => console.log("click")}
+            onMouseout={() => console.log("mouseout")}
+            strokeColor="transparent"
+            strokeOpacity={0}
+            strokeWeight={5}
+            fillColor="#FF0000"
+            fillOpacity={0.2}
+          />
+
           <Marker
             name={"Your position"}
             position={this.state.currentLatLng}
