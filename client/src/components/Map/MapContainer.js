@@ -1,5 +1,11 @@
 import React, { Component } from "react";
-import { Map, InfoWindow, Marker, GoogleApiWrapper } from "google-maps-react";
+import {
+  Map,
+  InfoWindow,
+  Marker,
+  GoogleApiWrapper,
+  Circle
+} from "google-maps-react";
 import ropaData from "../../ropa.json";
 import oilData from "../../oil.json";
 import batteriesData from "../../batteries.json";
@@ -8,9 +14,12 @@ import cleanPointMovData from "../../cleanPointMov.json";
 import cleanPointData from "../../cleanPoint.json";
 import plasticData from "../../plastic.json";
 import glassData from "../../glass.json";
-import "./MapContainer.scss"
+import paperData from "../../paper.json";
+import organicData from "../../organic.json";
+import restosData from "../../restos.json";
+import "./MapContainer.scss";
 
-import utmObj from 'utm-latlng'
+import utmObj from "utm-latlng";
 
 export class MapContainer extends Component {
   constructor(props) {
@@ -24,6 +33,9 @@ export class MapContainer extends Component {
       cleanPointData,
       plasticData,
       glassData,
+      paperData,
+      organicData,
+      restosData,
       currentLatLng: {
         lat: 40,
         lng: 0
@@ -36,7 +48,10 @@ export class MapContainer extends Component {
       isSearchingCleanPointMov: false,
       isSearchingCleanPoint: false,
       isSearchingPlastic: false,
-      isSearchingGlass: false
+      isSearchingGlass: false,
+      isSearchingPaper: false,
+      isSearchingOrganic: false,
+      isSearchingRestos: false
     };
   }
 
@@ -54,12 +69,16 @@ export class MapContainer extends Component {
     }
   };
 
-  showRopa = (e) => {
-    e.preventDefault()
+  showRopa = e => {
+    e.preventDefault();
     if (this.state.isSearchingClothes) {
-      this.setState({ ...this.state, isSearchingClothes: false }, ()=>  e.preventDefault());
+      this.setState({ ...this.state, isSearchingClothes: false }, () =>
+        e.preventDefault()
+      );
     } else {
-      this.setState({ ...this.state, isSearchingClothes: true },  ()=>  e.preventDefault());
+      this.setState({ ...this.state, isSearchingClothes: true }, () =>
+        e.preventDefault()
+      );
     }
   };
 
@@ -119,6 +138,47 @@ export class MapContainer extends Component {
     }
   };
 
+  showPaper = () => {
+    if (this.state.isSearchingPaper) {
+      this.setState({ ...this.state, isSearchingPaper: false });
+    } else {
+      this.setState({ ...this.state, isSearchingPaper: true });
+    }
+  };
+
+  showOrganic = () => {
+    if (this.state.isSearchingOrganic) {
+      this.setState({ ...this.state, isSearchingOrganic: false });
+    } else {
+      this.setState({ ...this.state, isSearchingOrganic: true });
+    }
+  };
+
+  showRestos = () => {
+    if (this.state.isSearchingRestos) {
+      this.setState({ ...this.state, isSearchingRestos: false });
+    } else {
+      this.setState({ ...this.state, isSearchingRestos: true });
+    }
+  };
+
+  nearMe = pos => {
+    const objPos = new this.props.google.maps.LatLng(pos.lat, pos.lng);
+    const myPos = new this.props.google.maps.LatLng(
+      this.state.currentLatLng.lat,
+      this.state.currentLatLng.lng
+    );
+    if (
+      this.props.google.maps.geometry.spherical.computeDistanceBetween(
+        objPos,
+        myPos
+      ) <= 1000
+    ) {
+      return true;
+    }
+    return false;
+  };
+
   componentDidMount() {
     this.showCurrentLocation();
   }
@@ -127,15 +187,17 @@ export class MapContainer extends Component {
       width: "100%",
       height: "90%"
     };
-    let utm = new utmObj("ETRS89")
-    utm.setEllipsoid("ETRS89")
-    console.log(utm.convertUtmToLatLng(438168.0647, 4473686.053, 30, "N"))
-    console.log(utm.convertLatLngToUtm(40.4315754, -3.7073549, 2))
+    const coords = { lat: -21.805149, lng: -49.0921657 };
+    let utm = new utmObj("ETRS89");
+    utm.setEllipsoid("ETRS89");
     return (
       <div>
         <div>
           <div id="ck-button">
-          <label><input type="checkbox" onChange={this.showRopa} /> <span>Ropa</span> </label> 
+            <label>
+              <input type="checkbox" onChange={this.showRopa} />{" "}
+              <span>Ropa</span>{" "}
+            </label>
           </div>
           <div>
             <input type="checkbox" onChange={this.showOil} />
@@ -149,7 +211,7 @@ export class MapContainer extends Component {
             <input type="checkbox" onChange={this.showPharmacy} />
             <h4>Punto sigre</h4>
           </div>
-           <div>
+          <div>
             <input type="checkbox" onChange={this.showCleanPointMov} />
             <h4>Punto limpio móvil</h4>
           </div>
@@ -165,6 +227,18 @@ export class MapContainer extends Component {
             <input type="checkbox" onChange={this.showGlass} />
             <h4>Vidrio</h4>
           </div>
+          <div>
+            <input type="checkbox" onChange={this.showPaper} />
+            <h4>Papel y cartón</h4>
+          </div>
+          <div>
+            <input type="checkbox" onChange={this.showOrganic} />
+            <h4>Orgánico</h4>
+          </div>
+          <div>
+            <input type="checkbox" onChange={this.showRestos} />
+            <h4>Restos</h4>
+          </div>
         </div>
 
         <Map
@@ -178,21 +252,21 @@ export class MapContainer extends Component {
           {this.state.isSearchingClothes &&
             this.state.ropaData.map(ropa => {
               const pos = {
-                lat: ropa.LATITUD,
-                lng: ropa.LONGITUD
+                lat: ropa.latitud,
+                lng: ropa.longitud
               };
 
-              return <Marker position={pos} />;
+              return <Marker position={pos} icon= "http://www.googlemapsmarkers.com/v1/T/f3610c/"/>;
             })}
 
           {this.state.isSearchingOil &&
             this.state.oilData.map(oil => {
               const pos = {
-                lat: oil.LATITUD,
-                lng: oil.LONGITUD
+                lat: oil.latitud,
+                lng: oil.longitud
               };
 
-              return <Marker position={pos} />;
+              return <Marker position={pos} icon= "http://www.googlemapsmarkers.com/v1/A/d5c53a/"/>;
             })}
 
           {this.state.isSearchingBatteries &&
@@ -202,52 +276,102 @@ export class MapContainer extends Component {
                 lng: batteries.Longitud
               };
 
-              return <Marker position={pos} />;
+              return <Marker position={pos} icon= "http://www.googlemapsmarkers.com/v1/P/bc20ef/" />;
             })}
 
           {this.state.isSearchingPharmacy &&
             this.state.pharmacyData.map(pharmacy => {
-              const pos = utm.convertUtmToLatLng(pharmacy.LATITUD, pharmacy.LONGITUD, 30, "N");
+              const pos = utm.convertUtmToLatLng(
+                pharmacy.latitud,
+                pharmacy.longitud,
+                30,
+                "N"
+              );
 
-              return <Marker position={pos} />;
+              return <Marker position={pos} icon= "http://www.googlemapsmarkers.com/v1/F/127e12/"/>;
             })}
 
           {this.state.isSearchingCleanPointMov &&
             this.state.cleanPointMovData.map(cleanPointMov => {
               const pos = {
-                lat: cleanPointMov.LATITUD,
-                lng: cleanPointMov.LONGITUD
+                lat: cleanPointMov.latitud,
+                lng: cleanPointMov.longitud
               };
 
-              return <Marker position={pos} />;
+              if (this.nearMe(pos)) return <Marker position={pos} icon= "http://www.googlemapsmarkers.com/v1/M/f60404/"/>;
             })}
 
           {this.state.isSearchingCleanPoint &&
             this.state.cleanPointData.map(cleanPoint => {
               const pos = {
-                lat: cleanPoint.location.latitude,
-                lng: cleanPoint.location.longitude
+                lat: cleanPoint.location.latitud,
+                lng: cleanPoint.location.longitud
               };
 
-              return <Marker position={pos} />;
+              return <Marker position={pos} icon= "http://www.googlemapsmarkers.com/v1/P/f60404/"/>;
             })}
 
-                  {this.state.isSearchingPlastic &&
+          {this.state.isSearchingPlastic &&
             this.state.plasticData.map(plastic => {
-              const pos = utm.convertUtmToLatLng(plastic.latitud, plastic.longitud, 30, "N");
+              const pos = utm.convertUtmToLatLng(
+                plastic.latitud,
+                plastic.longitud,
+                30,
+                "N"
+              );
 
-              return <Marker position={pos} />;
+              return <Marker position={pos} icon= "http://www.googlemapsmarkers.com/v1/R/3636e8/"/>;
             })}
 
-                 {this.state.isSearchingGlass &&
+          {this.state.isSearchingGlass &&
             this.state.glassData.map(glass => {
-              const pos = utm.convertUtmToLatLng(glass.LATITUD, glass.LONGITUD, 30, "N");
-         
+              const pos = utm.convertUtmToLatLng(
+                +glass.latitud,
+                +glass.longitud,
+                30,
+                "N"
+              );
+              console.log(glass.latitud);
+              //console.log(utm.convertUtmToLatLng(+glass.latitud, +glass.longitud, 30, "N"))
+
+              return <Marker position={pos} icon= "http://www.googlemapsmarkers.com/v1/R/3636e8/"/>;
+            })}
+
+          {this.state.isSearchingPaper &&
+            this.state.paperData.map(paper => {
+              const pos = utm.convertUtmToLatLng(
+                paper.latitud,
+                paper.longitud,
+                30,
+                "N"
+              );
+
+              return <Marker position={pos} icon= "http://www.googlemapsmarkers.com/v1/R/3636e8/"/>;
+            })}
+
+          {this.state.isSearchingOrganic &&
+            this.state.organicData.map(organic => {
+              const pos = utm.convertUtmToLatLng(
+                organic.latitud,
+                organic.longitud,
+                30,
+                "N"
+              );
+
+              return <Marker position={pos}  />;
+            })}
+
+          {this.state.isSearchingRestos &&
+            this.state.restosData.map(restos => {
+              const pos = utm.convertUtmToLatLng(
+                restos.latitud,
+                restos.longitud,
+                30,
+                "N"
+              );
 
               return <Marker position={pos} />;
             })}
-
-            
 
           <Marker
             name={"Your position"}
@@ -266,5 +390,7 @@ export class MapContainer extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: "AIzaSyDpK3H8uHIj99teUQ5u0J6z7uDH9_DgEko"
+  apiKey: "AIzaSyDpK3H8uHIj99teUQ5u0J6z7uDH9_DgEko",
+  libraries: ["geometry"],
+  language: "en"
 })(MapContainer);
