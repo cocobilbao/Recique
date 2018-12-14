@@ -12,7 +12,7 @@
         "UTMY": "4476741.68",
         "latitud": "40.4393301262956",
         "longitud": "-3.67890999372858",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -30,7 +30,7 @@
         "UTMY": "4475366.47",
         "latitud": "40.42706013",
         "longitud": "-3.658269994",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -49,7 +49,7 @@
         "UTMY": "4477410.63",
         "latitud": "40.44532013",
         "longitud": "-3.685109994",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -66,7 +66,7 @@
         "UTMY": "4475366.87",
         "latitud": "40.42719013",
         "longitud": "-3.635689994",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -84,7 +84,7 @@
         "UTMY": "4477772.74",
         "latitud": "40.44865013",
         "longitud": "-3.673579994",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -102,7 +102,7 @@
         "UTMY": "4476101.61",
         "latitud": "40.43377013",
         "longitud": "-3.642789994",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -120,7 +120,7 @@
         "UTMY": "4480160.56",
         "latitud": "40.46998013",
         "longitud": "-3.704079993",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -138,7 +138,7 @@
         "UTMY": "4477637.11",
         "latitud": "40.44748013",
         "longitud": "-3.664609994",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -156,7 +156,7 @@
         "UTMY": "4479060.15",
         "latitud": "40.46008013",
         "longitud": "-3.701849994",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -175,7 +175,7 @@
         "UTMY": "4480309.30",
         "latitud": "40.47154013",
         "longitud": "-3.666999994",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -192,7 +192,7 @@
         "UTMY": "4474466.02",
         "latitud": "40.41890013",
         "longitud": "-3.666619994",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -211,7 +211,7 @@
         "UTMY": "4478482.20",
         "latitud": "40.45493013",
         "longitud": "-3.692449994",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -228,7 +228,7 @@
         "UTMY": "4473524.50",
         "latitud": "40.41010013",
         "longitud": "-3.719629993",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -246,7 +246,7 @@
         "UTMY": "4476218.44",
         "latitud": "40.43439013",
         "longitud": "-3.716369993",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -264,7 +264,7 @@
         "UTMY": "4472511.69",
         "latitud": "40.40107013",
         "longitud": "-3.704289993",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -282,7 +282,7 @@
         "UTMY": "4476603.04",
         "latitud": "40.43786013",
         "longitud": "-3.715549993",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -301,7 +301,7 @@
         "UTMY": "4470488.95",
         "latitud": "40.38313013",
         "longitud": "-3.656179994",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -318,7 +318,7 @@
         "UTMY": "4472014.76",
         "latitud": "40.39662013",
         "longitud": "-3.699859994",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -336,7 +336,7 @@
         "UTMY": "4474526.50",
         "latitud": "40.41918013",
         "longitud": "-3.711069993",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -354,7 +354,7 @@
         "UTMY": "4476491.04",
         "latitud": "40.43695013",
         "longitud": "-3.699359994",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -373,7 +373,7 @@
         "UTMY": "4471012.40",
         "latitud": "40.38777013",
         "longitud": "-3.669399994",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -391,7 +391,7 @@
         "UTMY": "4472315.18",
         "latitud": "40.39936013",
         "longitud": "-3.694309994",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -409,7 +409,7 @@
         "UTMY": "4475722.24",
         "latitud": "40.43002013",
         "longitud": "-3.699999994",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -426,7 +426,7 @@
         "UTMY": "4470316.07",
         "latitud": "40.38180013",
         "longitud": "-3.614779994",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -443,7 +443,7 @@
         "UTMY": "4472921.95",
         "latitud": "40.40480013",
         "longitud": "-3.698689994",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -461,7 +461,7 @@
         "UTMY": "4476442.50",
         "latitud": "40.43655013",
         "longitud": "-3.693179994",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -478,7 +478,7 @@
         "UTMY": "4480624.50",
         "latitud": "40.47455013",
         "longitud": "-3.636779994",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -496,7 +496,7 @@
         "UTMY": "4472519.71",
         "latitud": "40.40144013",
         "longitud": "-3.653579994",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -514,7 +514,7 @@
         "UTMY": "4470052.83",
         "latitud": "40.37947013",
         "longitud": "-3.606899994",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -533,7 +533,7 @@
         "UTMY": "4472287.38",
         "latitud": "40.399104",
         "longitud": "-3.709351",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -552,7 +552,7 @@
         "UTMY": "4476955.00",
         "latitud": "40.44116013",
         "longitud": "-3.694359994",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -571,7 +571,7 @@
         "UTMY": "4475947.80",
         "latitud": "40.43232013",
         "longitud": "-3.654259994",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -589,7 +589,7 @@
         "UTMY": "4470544.29",
         "latitud": "40.38333013",
         "longitud": "-3.706829993",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -606,7 +606,7 @@
         "UTMY": "4471686.88",
         "latitud": "40.39373013",
         "longitud": "-3.689229994",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -624,7 +624,7 @@
         "UTMY": "4473948.99",
         "latitud": "40.41397013",
         "longitud": "-3.712239993",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -641,7 +641,7 @@
         "UTMY": "4476357.44",
         "latitud": "40.43569013",
         "longitud": "-3.708619993",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -658,7 +658,7 @@
         "UTMY": "4475812.43",
         "latitud": "40.43113013",
         "longitud": "-3.649019994",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -677,7 +677,7 @@
         "UTMY": "4479364.92",
         "latitud": "40.46314013",
         "longitud": "-3.648019994",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -695,7 +695,7 @@
         "UTMY": "4471283.04",
         "latitud": "40.39040013",
         "longitud": "-3.635409994",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -713,7 +713,7 @@
         "UTMY": "4470772.24",
         "latitud": "40.38549013",
         "longitud": "-3.689209994",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -731,7 +731,7 @@
         "UTMY": "4476890.05",
         "latitud": "40.44049013",
         "longitud": "-3.708339993",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -749,7 +749,7 @@
         "UTMY": "4478598.57",
         "latitud": "40.45632013",
         "longitud": "-3.632859994",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -767,7 +767,7 @@
         "UTMY": "4481062.92",
         "latitud": "40.47787013",
         "longitud": "-3.742329993",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -786,7 +786,7 @@
         "UTMY": "4479932.15",
         "latitud": "40.46799013",
         "longitud": "-3.692879994",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -805,7 +805,7 @@
         "UTMY": "4480487.78",
         "latitud": "40.47290013",
         "longitud": "-3.708649993",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -823,7 +823,7 @@
         "UTMY": "4478974.60",
         "latitud": "40.45936013",
         "longitud": "-3.693459994",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -840,7 +840,7 @@
         "UTMY": "4480804.68",
         "latitud": "40.47571013",
         "longitud": "-3.715949993",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -859,7 +859,7 @@
         "UTMY": "4478098.82",
         "latitud": "40.45126013",
         "longitud": "-3.727629993",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -877,7 +877,7 @@
         "UTMY": "4475755.67",
         "latitud": "40.43080013",
         "longitud": "-3.615859994",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -895,7 +895,7 @@
         "UTMY": "4481732.36",
         "latitud": "40.48415013",
         "longitud": "-3.702489994",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -912,7 +912,7 @@
         "UTMY": "4475180.25",
         "latitud": "40.42558013",
         "longitud": "-3.622589994",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -930,7 +930,7 @@
         "UTMY": "4479480.24",
         "latitud": "40.46385013",
         "longitud": "-3.704259993",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -948,7 +948,7 @@
         "UTMY": "4479853.22",
         "latitud": "40.46721013",
         "longitud": "-3.704279993",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -965,7 +965,7 @@
         "UTMY": "4470537.06",
         "latitud": "40.38316051",
         "longitud": "-3.723731631",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -983,7 +983,7 @@
         "UTMY": "4479618.59",
         "latitud": "40.46505013",
         "longitud": "-3.711819993",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -1001,7 +1001,7 @@
         "UTMY": "4477758.48",
         "latitud": "40.44831013",
         "longitud": "-3.708949993",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -1019,7 +1019,7 @@
         "UTMY": "4479362.51",
         "latitud": "40.46299013",
         "longitud": "-3.670519994",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -1037,7 +1037,7 @@
         "UTMY": "4480241.88",
         "latitud": "40.47099013",
         "longitud": "-3.656979994",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -1054,7 +1054,7 @@
         "UTMY": "4474353.96",
         "latitud": "40.41791013",
         "longitud": "-3.663209994",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -1071,7 +1071,7 @@
         "UTMY": "4471993.27",
         "latitud": "40.39696013",
         "longitud": "-3.605319994",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -1089,7 +1089,7 @@
         "UTMY": "4479932.86",
         "latitud": "40.46811013",
         "longitud": "-3.673659994",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -1108,7 +1108,7 @@
         "UTMY": "4480153.07",
         "latitud": "40.47024013",
         "longitud": "-3.648099994",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -1126,7 +1126,7 @@
         "UTMY": "4474360.16",
         "latitud": "40.41792013",
         "longitud": "-3.671159994",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -1144,7 +1144,7 @@
         "UTMY": "4479631.93",
         "latitud": "40.46533013",
         "longitud": "-3.685389994",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -1161,7 +1161,7 @@
         "UTMY": "4473396.48",
         "latitud": "40.40922013",
         "longitud": "-3.674279994",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -1179,7 +1179,7 @@
         "UTMY": "4478331.25",
         "latitud": "40.45366013",
         "longitud": "-3.677269994",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -1197,7 +1197,7 @@
         "UTMY": "4472621.32",
         "latitud": "40.40226013",
         "longitud": "-3.670239994",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -1215,7 +1215,7 @@
         "UTMY": "4482129.60",
         "latitud": "40.48826013",
         "longitud": "-3.608829994",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -1232,7 +1232,7 @@
         "UTMY": "4473121.63",
         "latitud": "40.40669013",
         "longitud": "-3.683459994",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -1251,7 +1251,7 @@
         "UTMY": "4472637.26",
         "latitud": "40.40235013",
         "longitud": "-3.679429994",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -1268,7 +1268,7 @@
         "UTMY": "4475577.51",
         "latitud": "40.42927013",
         "longitud": "-3.601609994",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -1285,7 +1285,7 @@
         "UTMY": "4481728.79",
         "latitud": "40.48422013",
         "longitud": "-3.685469994",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -1304,7 +1304,7 @@
         "UTMY": "4470380.60",
         "latitud": "40.38173013",
         "longitud": "-3.727039993",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -1322,7 +1322,7 @@
         "UTMY": "4484058.83",
         "latitud": "40.50520013",
         "longitud": "-3.687349994",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -1341,7 +1341,7 @@
         "UTMY": "4471779.49",
         "latitud": "40.39407013",
         "longitud": "-3.767689993",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -1358,7 +1358,7 @@
         "UTMY": "4467199.50",
         "latitud": "40.35336013",
         "longitud": "-3.679539994",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -1376,7 +1376,7 @@
         "UTMY": "4481975.77",
         "latitud": "40.48628013",
         "longitud": "-3.712759993",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -1395,7 +1395,7 @@
         "UTMY": "4471552.40",
         "latitud": "40.39213013",
         "longitud": "-3.751569993",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -1412,7 +1412,7 @@
         "UTMY": "4465591.73",
         "latitud": "40.33887013",
         "longitud": "-3.680449994",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -1431,7 +1431,7 @@
         "UTMY": "4471458.49",
         "latitud": "40.39157013",
         "longitud": "-3.706189993",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -1449,7 +1449,7 @@
         "UTMY": "4471907.52",
         "latitud": "40.39546013",
         "longitud": "-3.731189993",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -1467,7 +1467,7 @@
         "UTMY": "4476110.77",
         "latitud": "40.43380013",
         "longitud": "-3.652179994",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -1485,7 +1485,7 @@
         "UTMY": "4480819.66",
         "latitud": "40.47572013",
         "longitud": "-3.735839993",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -1504,7 +1504,7 @@
         "UTMY": "4473046.83",
         "latitud": "40.40567013",
         "longitud": "-3.739699993",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -1522,7 +1522,7 @@
         "UTMY": "4469970.76",
         "latitud": "40.37825013",
         "longitud": "-3.692449994",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -1540,7 +1540,7 @@
         "UTMY": "4470191.24",
         "latitud": "40.37993013",
         "longitud": "-3.741849993",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -1557,7 +1557,7 @@
         "UTMY": "4473539.12",
         "latitud": "40.41020013",
         "longitud": "-3.724709993",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -1575,7 +1575,7 @@
         "UTMY": "4472886.08",
         "latitud": "40.40481013",
         "longitud": "-3.641189994",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -1593,7 +1593,7 @@
         "UTMY": "4467618.06",
         "latitud": "40.35701013",
         "longitud": "-3.699809994",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -1611,7 +1611,7 @@
         "UTMY": "4474572.62",
         "latitud": "40.41969013",
         "longitud": "-3.695529994",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -1628,7 +1628,7 @@
         "UTMY": "4473984.49",
         "latitud": "40.41438013",
         "longitud": "-3.697449994",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -1646,7 +1646,7 @@
         "UTMY": "4475732.94",
         "latitud": "40.43020013",
         "longitud": "-3.686059994",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -1664,7 +1664,7 @@
         "UTMY": "4478011.73",
         "latitud": "40.45058013",
         "longitud": "-3.710829993",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -1683,7 +1683,7 @@
         "UTMY": "4476004.10",
         "latitud": "40.43269013",
         "longitud": "-3.678079994",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -1700,7 +1700,7 @@
         "UTMY": "4476603.52",
         "latitud": "40.43846013",
         "longitud": "-3.611789994",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -1719,7 +1719,7 @@
         "UTMY": "4473790.59",
         "latitud": "40.41259013",
         "longitud": "-3.704569993",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -1738,7 +1738,7 @@
         "UTMY": "4475679.70",
         "latitud": "40.42943013",
         "longitud": "-3.733359993",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -1757,7 +1757,7 @@
         "UTMY": "4476339.41",
         "latitud": "40.43575013",
         "longitud": "-3.671359994",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -1774,7 +1774,7 @@
         "UTMY": "4474759.72",
         "latitud": "40.42125013",
         "longitud": "-3.716109993",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -1792,7 +1792,7 @@
         "UTMY": "4476969.20",
         "latitud": "40.44147013",
         "longitud": "-3.663359994",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -1811,7 +1811,7 @@
         "UTMY": "4475218.53",
         "latitud": "40.42546013",
         "longitud": "-3.703639993",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -1830,7 +1830,7 @@
         "UTMY": "4473354.35",
         "latitud": "40.40868013",
         "longitud": "-3.701249994",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -1848,7 +1848,7 @@
         "UTMY": "4482999.86",
         "latitud": "40.49606013",
         "longitud": "-3.616409994",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -1866,7 +1866,7 @@
         "UTMY": "4474940.14",
         "latitud": "40.42316013",
         "longitud": "-3.668589994",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -1885,7 +1885,7 @@
         "UTMY": "4473197.52",
         "latitud": "40.40727013",
         "longitud": "-3.700779994",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -1903,7 +1903,7 @@
         "UTMY": "4474823.00",
         "latitud": "40.4218911",
         "longitud": "-3.705691",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -1921,7 +1921,7 @@
         "UTMY": "4475523.90",
         "latitud": "40.42837013",
         "longitud": "-3.677029994",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -1940,7 +1940,7 @@
         "UTMY": "4474870.03",
         "latitud": "40.42242013",
         "longitud": "-3.687069994",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -1958,7 +1958,7 @@
         "UTMY": "4473573.20",
         "latitud": "40.41085914",
         "longitud": "-3.666186786",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -1976,7 +1976,7 @@
         "UTMY": "4478314.84",
         "latitud": "40.45332738",
         "longitud": "-3.708129826",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -1994,7 +1994,7 @@
         "UTMY": "4468443.89",
         "latitud": "40.36405652",
         "longitud": "-3.76208289",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -2012,7 +2012,7 @@
         "UTMY": "4470136.92",
         "latitud": "40.37910205",
         "longitud": "-3.79289123",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -2031,7 +2031,7 @@
         "UTMY": "4485795.22",
         "latitud": "40.52027135",
         "longitud": "-3.777549085",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -2048,7 +2048,7 @@
         "UTMY": "4474445.91",
         "latitud": "40.41864668",
         "longitud": "-3.679030573",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -2066,7 +2066,7 @@
         "UTMY": "4482030.84",
         "latitud": "40.48673425",
         "longitud": "-3.719531943",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -2084,7 +2084,7 @@
         "UTMY": "4478702.00",
         "latitud": "40.45680834",
         "longitud": "-3.709264743",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -2102,7 +2102,7 @@
         "UTMY": "4470851.96",
         "latitud": "40.38586625",
         "longitud": "-3.744391677",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -2120,7 +2120,7 @@
         "UTMY": "4473060.11",
         "latitud": "40.40570434",
         "longitud": "-3.752934046",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -2138,7 +2138,7 @@
         "UTMY": "4481302.62",
         "latitud": "40.48015632",
         "longitud": "-3.722328509",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -2156,7 +2156,7 @@
         "UTMY": "4473120.55",
         "latitud": "40.40670603",
         "longitud": "-3.679105448",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -2175,7 +2175,7 @@
         "UTMY": "4471034.73",
         "latitud": "40.387688",
         "longitud": "-3.716653",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -2193,7 +2193,7 @@
         "UTMY": "4473379.86",
         "latitud": "40.40870061",
         "longitud": "-3.734961308",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -2211,7 +2211,7 @@
         "UTMY": "4480602.99",
         "latitud": "40.4738771",
         "longitud": "-3.718525244",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -2228,7 +2228,7 @@
         "UTMY": "4472135.59",
         "latitud": "40.39751151",
         "longitud": "-3.731708393",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -2246,7 +2246,7 @@
         "UTMY": "4472780.66",
         "latitud": "40.40368003",
         "longitud": "-3.672931679",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -2264,7 +2264,7 @@
         "UTMY": "4476616.93",
         "latitud": "40.43834992",
         "longitud": "-3.653981217",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -2281,7 +2281,7 @@
         "UTMY": "4471942.57",
         "latitud": "40.39569796",
         "longitud": "-3.743411287",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -2299,7 +2299,7 @@
         "UTMY": "4479555.85",
         "latitud": "40.46457158",
         "longitud": "-3.697613671",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -2317,7 +2317,7 @@
         "UTMY": "4478377.68",
         "latitud": "40.45413668",
         "longitud": "-3.667255232",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -2335,7 +2335,7 @@
         "UTMY": "4480247.98",
         "latitud": "40.47081088",
         "longitud": "-3.696958818",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -2354,7 +2354,7 @@
         "UTMY": "4477415.59",
         "latitud": "40.44556187",
         "longitud": "-3.65100177",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -2372,7 +2372,7 @@
         "UTMY": "4471122.03",
         "latitud": "40.38831619",
         "longitud": "-3.741772099",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -2390,7 +2390,7 @@
         "UTMY": "4470917.76",
         "latitud": "40.38640227",
         "longitud": "-3.753163133",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -2408,7 +2408,7 @@
         "UTMY": "4472290.07",
         "latitud": "40.39926602",
         "longitud": "-3.671943717",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -2426,7 +2426,7 @@
         "UTMY": "4481748.34",
         "latitud": "40.48426912",
         "longitud": "-3.706580057",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -2444,7 +2444,7 @@
         "UTMY": "4470788.90",
         "latitud": "40.38542445",
         "longitud": "-3.724508546",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -2463,7 +2463,7 @@
         "UTMY": "4470910.54",
         "latitud": "40.38631089",
         "longitud": "-3.757199396",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -2480,7 +2480,7 @@
         "UTMY": "4478794.51",
         "latitud": "40.45793674",
         "longitud": "-3.659440281",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -2499,7 +2499,7 @@
         "UTMY": "4473673.17",
         "latitud": "40.41173813",
         "longitud": "-3.669933119",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -2517,7 +2517,7 @@
         "UTMY": "4473673.17",
         "latitud": "40.41173813",
         "longitud": "-3.669933119",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -2534,7 +2534,7 @@
         "UTMY": "4479090.61",
         "latitud": "40.46050652",
         "longitud": "-3.676366952",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -2552,7 +2552,7 @@
         "UTMY": "4478870.53",
         "latitud": "40.45847985",
         "longitud": "-3.683840815",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -2570,7 +2570,7 @@
         "UTMY": "4479647.50",
         "latitud": "40.46558716",
         "longitud": "-3.66539655",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -2587,7 +2587,7 @@
         "UTMY": "4470145.39",
         "latitud": "40.37957467",
         "longitud": "-3.732811665",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -2605,7 +2605,7 @@
         "UTMY": "4470628.25",
         "latitud": "40.38361228",
         "longitud": "-3.780577319",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -2623,7 +2623,7 @@
         "UTMY": "4474216.15",
         "latitud": "40.41659121",
         "longitud": "-3.676571862",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -2641,7 +2641,7 @@
         "UTMY": "4482622.73",
         "latitud": "40.49226604",
         "longitud": "-3.686740229",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -2660,7 +2660,7 @@
         "UTMY": "4479300.46",
         "latitud": "40.46230582",
         "longitud": "-3.691785867",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -2678,7 +2678,7 @@
         "UTMY": "4483190.34",
         "latitud": "40.49736629",
         "longitud": "-3.688979853",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -2696,7 +2696,7 @@
         "UTMY": "4480002.77",
         "latitud": "40.46866386",
         "longitud": "-3.68659163",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -2715,7 +2715,7 @@
         "UTMY": "4469646.48",
         "latitud": "40.37511067",
         "longitud": "-3.727948897",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -2733,7 +2733,7 @@
         "UTMY": "4470064.42",
         "latitud": "40.37854039",
         "longitud": "-3.779432297",
-        "DiA SEMANA": "LUNES",
+        "DIASEMANA": "LUNES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -2751,7 +2751,7 @@
         "UTMY": "4475482.28",
         "latitud": "40.42779649",
         "longitud": "-3.710134496",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -2769,7 +2769,7 @@
         "UTMY": "4469543.93",
         "latitud": "40.37459162",
         "longitud": "-3.660513091",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -2788,7 +2788,7 @@
         "UTMY": "4468975.92",
         "latitud": "40.36914712",
         "longitud": "-3.715520337",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -2806,7 +2806,7 @@
         "UTMY": "4468637.39",
         "latitud": "40.366697",
         "longitud": "-3.61093895",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -2824,7 +2824,7 @@
         "UTMY": "4478009.91",
         "latitud": "40.45128409",
         "longitud": "-3.582005708",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -2842,7 +2842,7 @@
         "UTMY": "4468963.83",
         "latitud": "40.36959542",
         "longitud": "-3.618936523",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -2861,7 +2861,7 @@
         "UTMY": "4468664.29",
         "latitud": "40.36637303",
         "longitud": "-3.710087199",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -2879,7 +2879,7 @@
         "UTMY": "4478506.26",
         "latitud": "40.45572379",
         "longitud": "-3.588317484",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -2897,7 +2897,7 @@
         "UTMY": "4475639.72",
         "latitud": "40.42924193",
         "longitud": "-3.705722844",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -2916,7 +2916,7 @@
         "UTMY": "4468567.22",
         "latitud": "40.36555568",
         "longitud": "-3.700722153",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -2934,7 +2934,7 @@
         "UTMY": "4469272.76",
         "latitud": "40.37232002",
         "longitud": "-3.629789046",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -2952,7 +2952,7 @@
         "UTMY": "4478971.54",
         "latitud": "40.45993074",
         "longitud": "-3.585311084",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -2970,7 +2970,7 @@
         "UTMY": "4471231.37",
         "latitud": "40.38992802",
         "longitud": "-3.636609339",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -2988,7 +2988,7 @@
         "UTMY": "4468873.40",
         "latitud": "40.36838731",
         "longitud": "-3.688532197",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -3006,7 +3006,7 @@
         "UTMY": "4473450.87",
         "latitud": "40.40958069",
         "longitud": "-3.696127206",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -3024,7 +3024,7 @@
         "UTMY": "4480473.35",
         "latitud": "40.47350059",
         "longitud": "-3.57734166",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -3041,7 +3041,7 @@
         "UTMY": "4470721.15",
         "latitud": "40.38496415",
         "longitud": "-3.700148519",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -3059,7 +3059,7 @@
         "UTMY": "4475438.21",
         "latitud": "40.42748313",
         "longitud": "-3.696388041",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -3077,7 +3077,7 @@
         "UTMY": "4471826.88",
         "latitud": "40.39524315",
         "longitud": "-3.645605693",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -3095,7 +3095,7 @@
         "UTMY": "4479401.51",
         "latitud": "40.46341089",
         "longitud": "-3.658435542",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -3113,7 +3113,7 @@
         "UTMY": "4474086.94",
         "latitud": "40.41528547",
         "longitud": "-3.700364984",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -3131,7 +3131,7 @@
         "UTMY": "4470396.11",
         "latitud": "40.38196732",
         "longitud": "-3.711373636",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -3149,7 +3149,7 @@
         "UTMY": "4470982.35",
         "latitud": "40.3875944",
         "longitud": "-3.652783229",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -3167,7 +3167,7 @@
         "UTMY": "4475511.91",
         "latitud": "40.42845615",
         "longitud": "-3.643037113",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -3185,7 +3185,7 @@
         "UTMY": "4473123.76",
         "latitud": "40.40656682",
         "longitud": "-3.707154966",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -3203,7 +3203,7 @@
         "UTMY": "4470930.76",
         "latitud": "40.38677762",
         "longitud": "-3.712415205",
-        "DiA SEMANA": "MARTES",
+        "DIASEMANA": "MARTES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -3221,7 +3221,7 @@
         "UTMY": "4480698.94",
         "latitud": "40.47396543",
         "longitud": "-3.834073426",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -3239,7 +3239,7 @@
         "UTMY": "4469264.49",
         "latitud": "40.37142604",
         "longitud": "-3.7656181",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -3257,7 +3257,7 @@
         "UTMY": "4476537.04",
         "latitud": "40.43772165",
         "longitud": "-3.637609719",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -3275,7 +3275,7 @@
         "UTMY": "4469349.07",
         "latitud": "40.37223546",
         "longitud": "-3.758420175",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -3294,7 +3294,7 @@
         "UTMY": "4466455.18",
         "latitud": "40.34647541",
         "longitud": "-3.709357091",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -3313,7 +3313,7 @@
         "UTMY": "4480227.88",
         "latitud": "40.47011006",
         "longitud": "-3.778391577",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -3330,7 +3330,7 @@
         "UTMY": "4475688.59",
         "latitud": "40.43015635",
         "longitud": "-3.623234722",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -3347,7 +3347,7 @@
         "UTMY": "4470795.23",
         "latitud": "40.38522206",
         "longitud": "-3.764791741",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -3364,7 +3364,7 @@
         "UTMY": "4469561.33",
         "latitud": "40.37425336",
         "longitud": "-3.742139687",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -3382,7 +3382,7 @@
         "UTMY": "4466149.51",
         "latitud": "40.34368355",
         "longitud": "-3.715528398",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -3399,7 +3399,7 @@
         "UTMY": "4465807.01",
         "latitud": "40.340762",
         "longitud": "-3.688466",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -3417,7 +3417,7 @@
         "UTMY": "4471712.37",
         "latitud": "40.39350783",
         "longitud": "-3.761277537",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -3435,7 +3435,7 @@
         "UTMY": "4478691.42",
         "latitud": "40.45674114",
         "longitud": "-3.704672112",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -3453,7 +3453,7 @@
         "UTMY": "4471691.97",
         "latitud": "40.39348348",
         "longitud": "-3.736663419",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -3471,7 +3471,7 @@
         "UTMY": "4471709.68",
         "latitud": "40.39382375",
         "longitud": "-3.707727615",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -3489,7 +3489,7 @@
         "UTMY": "4466535.77",
         "latitud": "40.34739104",
         "longitud": "-3.677737378",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -3508,7 +3508,7 @@
         "UTMY": "4472057.03",
         "latitud": "40.39655217",
         "longitud": "-3.770445426",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -3526,7 +3526,7 @@
         "UTMY": "4475798.68",
         "latitud": "40.43060674",
         "longitud": "-3.716657855",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -3545,7 +3545,7 @@
         "UTMY": "4473379.15",
         "latitud": "40.409418",
         "longitud": "-3.610567255",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -3563,7 +3563,7 @@
         "UTMY": "4467553.92",
         "latitud": "40.35647756",
         "longitud": "-3.692286994",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -3581,7 +3581,7 @@
         "UTMY": "4478826.55",
         "latitud": "40.45790876",
         "longitud": "-3.712783422",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -3600,7 +3600,7 @@
         "UTMY": "4482762.54",
         "latitud": "40.49339779",
         "longitud": "-3.707919056",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -3617,7 +3617,7 @@
         "UTMY": "4471471.06",
         "latitud": "40.39156704",
         "longitud": "-3.724995152",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -3635,7 +3635,7 @@
         "UTMY": "4471898.29",
         "latitud": "40.39518922",
         "longitud": "-3.760300561",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -3652,7 +3652,7 @@
         "UTMY": "4472519.63",
         "latitud": "40.40088914",
         "longitud": "-3.744586083",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -3670,7 +3670,7 @@
         "UTMY": "4484571.09",
         "latitud": "40.50978743",
         "longitud": "-3.691979444",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -3687,7 +3687,7 @@
         "UTMY": "4468197.14",
         "latitud": "40.36226806",
         "longitud": "-3.693017119",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -3705,7 +3705,7 @@
         "UTMY": "4472827.04",
         "latitud": "40.40445729",
         "longitud": "-3.60804054",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -3723,7 +3723,7 @@
         "UTMY": "4478065.39",
         "latitud": "40.45114155",
         "longitud": "-3.69802484",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -3741,7 +3741,7 @@
         "UTMY": "4483154.23",
         "latitud": "40.49712684",
         "longitud": "-3.674421941",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -3759,7 +3759,7 @@
         "UTMY": "4470107.22",
         "latitud": "40.37913785",
         "longitud": "-3.747337904",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -3777,7 +3777,7 @@
         "UTMY": "4473012.46",
         "latitud": "40.40532577",
         "longitud": "-3.745103375",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -3795,7 +3795,7 @@
         "UTMY": "4467935.53",
         "latitud": "40.35988379",
         "longitud": "-3.697565708",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -3812,7 +3812,7 @@
         "UTMY": "4477724.42",
         "latitud": "40.44751121",
         "longitud": "-3.785085494",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -3830,7 +3830,7 @@
         "UTMY": "4472752.19",
         "latitud": "40.40383525",
         "longitud": "-3.598022415",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -3848,7 +3848,7 @@
         "UTMY": "4484255.94",
         "latitud": "40.50708261",
         "longitud": "-3.669166507",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -3866,7 +3866,7 @@
         "UTMY": "4473042.68",
         "latitud": "40.40648092",
         "longitud": "-3.592453479",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -3885,7 +3885,7 @@
         "UTMY": "4473864.88",
         "latitud": "40.41311972",
         "longitud": "-3.727129825",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -3904,7 +3904,7 @@
         "UTMY": "4468367.68",
         "latitud": "40.36346589",
         "longitud": "-3.747378466",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -3922,7 +3922,7 @@
         "UTMY": "4467186.95",
         "latitud": "40.35313432",
         "longitud": "-3.698461892",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -3940,7 +3940,7 @@
         "UTMY": "4477688.81",
         "latitud": "40.44776383",
         "longitud": "-3.69555288",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -3957,7 +3957,7 @@
         "UTMY": "4478393.51",
         "latitud": "40.45358",
         "longitud": "-3.779036127",
-        "DiA SEMANA": "MIeRCOLES",
+        "DIASEMANA": "MIÉRCOLES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -3975,7 +3975,7 @@
         "UTMY": "4467582.44",
         "latitud": "40.35728524",
         "longitud": "-3.59317915",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -3993,7 +3993,7 @@
         "UTMY": "4472671.33",
         "latitud": "40.40275803",
         "longitud": "-3.662025225",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -4011,7 +4011,7 @@
         "UTMY": "4475219.93",
         "latitud": "40.42570533",
         "longitud": "-3.664329592",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -4029,7 +4029,7 @@
         "UTMY": "4468329.42",
         "latitud": "40.36404321",
         "longitud": "-3.587633913",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -4047,7 +4047,7 @@
         "UTMY": "4475125.97",
         "latitud": "40.42480849",
         "longitud": "-3.673029266",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -4064,7 +4064,7 @@
         "UTMY": "4471749.02",
         "latitud": "40.39466194",
         "longitud": "-3.623704718",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -4082,7 +4082,7 @@
         "UTMY": "4472633.08",
         "latitud": "40.40237793",
         "longitud": "-3.668196679",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -4099,7 +4099,7 @@
         "UTMY": "4468373.88",
         "latitud": "40.36441415",
         "longitud": "-3.593433734",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -4117,7 +4117,7 @@
         "UTMY": "4472099.07",
         "latitud": "40.39783703",
         "longitud": "-3.619708485",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -4135,7 +4135,7 @@
         "UTMY": "4478714.89",
         "latitud": "40.45729245",
         "longitud": "-3.646516762",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -4153,7 +4153,7 @@
         "UTMY": "4474589.96",
         "latitud": "40.41996042",
         "longitud": "-3.676307861",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -4171,7 +4171,7 @@
         "UTMY": "4471110.68",
         "latitud": "40.38878583",
         "longitud": "-3.646501324",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -4189,7 +4189,7 @@
         "UTMY": "4470080.53",
         "latitud": "40.37947003",
         "longitud": "-3.65273719",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -4207,7 +4207,7 @@
         "UTMY": "4472699.83",
         "latitud": "40.40324833",
         "longitud": "-3.619895988",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -4224,7 +4224,7 @@
         "UTMY": "4468158.39",
         "latitud": "40.36243065",
         "longitud": "-3.601593679",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -4243,7 +4243,7 @@
         "UTMY": "4479298.34",
         "latitud": "40.46261384",
         "longitud": "-3.634768951",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -4261,7 +4261,7 @@
         "UTMY": "4475362.83",
         "latitud": "40.42687862",
         "longitud": "-3.68389872",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -4278,7 +4278,7 @@
         "UTMY": "4474482.15",
         "latitud": "40.41929933",
         "longitud": "-3.621029333",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -4296,7 +4296,7 @@
         "UTMY": "4471517.84",
         "latitud": "40.39240479",
         "longitud": "-3.655240189",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -4315,7 +4315,7 @@
         "UTMY": "4477472.14",
         "latitud": "40.44595901",
         "longitud": "-3.670651482",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -4333,7 +4333,7 @@
         "UTMY": "4469822.16",
         "latitud": "40.37727079",
         "longitud": "-3.629576569",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -4351,7 +4351,7 @@
         "UTMY": "4476160.84",
         "latitud": "40.4340697",
         "longitud": "-3.683590638",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -4368,7 +4368,7 @@
         "UTMY": "4475053.34",
         "latitud": "40.42447465",
         "longitud": "-3.615522535",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -4386,7 +4386,7 @@
         "UTMY": "4476931.78",
         "latitud": "40.4410825",
         "longitud": "-3.672100324",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -4403,7 +4403,7 @@
         "UTMY": "4475731.17",
         "latitud": "40.4302759",
         "longitud": "-3.670415455",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -4420,7 +4420,7 @@
         "UTMY": "4471710.98",
         "latitud": "40.39408233",
         "longitud": "-3.666178413",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -4438,7 +4438,7 @@
         "UTMY": "4480454.48",
         "latitud": "40.47325425",
         "longitud": "-3.592435163",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -4456,7 +4456,7 @@
         "UTMY": "4470053.98",
         "latitud": "40.37940569",
         "longitud": "-3.620995046",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -4474,7 +4474,7 @@
         "UTMY": "4473366.16",
         "latitud": "40.40915774",
         "longitud": "-3.63711767",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -4492,7 +4492,7 @@
         "UTMY": "4469566.88",
         "latitud": "40.37507331",
         "longitud": "-3.610482743",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -4511,7 +4511,7 @@
         "UTMY": "4475431.44",
         "latitud": "40.42792648",
         "longitud": "-3.606913356",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -4530,7 +4530,7 @@
         "UTMY": "4475825.97",
         "latitud": "40.43116732",
         "longitud": "-3.663950523",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -4548,7 +4548,7 @@
         "UTMY": "4479406.74",
         "latitud": "40.46380544",
         "longitud": "-3.594330551",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -4566,7 +4566,7 @@
         "UTMY": "4470983.48",
         "latitud": "40.38756002",
         "longitud": "-3.660630692",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -4584,7 +4584,7 @@
         "UTMY": "4477330.64",
         "latitud": "40.44464014",
         "longitud": "-3.678215136",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -4602,7 +4602,7 @@
         "UTMY": "4479808.83",
         "latitud": "40.46747627",
         "longitud": "-3.584841288",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -4621,7 +4621,7 @@
         "UTMY": "4476418.00",
         "latitud": "40.43649844",
         "longitud": "-3.664382838",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -4639,7 +4639,7 @@
         "UTMY": "4478129.02",
         "latitud": "40.45178134",
         "longitud": "-3.686915621",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -4657,7 +4657,7 @@
         "UTMY": "4473270.54",
         "latitud": "40.40832878",
         "longitud": "-3.631194585",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -4675,7 +4675,7 @@
         "UTMY": "4470386.89",
         "latitud": "40.38246707",
         "longitud": "-3.609304279",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -4693,7 +4693,7 @@
         "UTMY": "4470184.77",
         "latitud": "40.38027879",
         "longitud": "-3.675442596",
-        "DiA SEMANA": "JUEVES",
+        "DIASEMANA": "JUEVES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -4711,7 +4711,7 @@
         "UTMY": "4477286.89",
         "latitud": "40.44483484",
         "longitud": "-3.56906922",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -4729,7 +4729,7 @@
         "UTMY": "4469582.53",
         "latitud": "40.37438754",
         "longitud": "-3.750942663",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -4747,7 +4747,7 @@
         "UTMY": "4469024.45",
         "latitud": "40.36964168",
         "longitud": "-3.706191846",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -4765,7 +4765,7 @@
         "UTMY": "4472498.22",
         "latitud": "40.40132224",
         "longitud": "-3.640043602",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -4783,7 +4783,7 @@
         "UTMY": "4469758.87",
         "latitud": "40.37583416",
         "longitud": "-3.772503573",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -4801,7 +4801,7 @@
         "UTMY": "4472738.44",
         "latitud": "40.40353147",
         "longitud": "-3.631848368",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -4818,7 +4818,7 @@
         "UTMY": "4477580.64",
         "latitud": "40.44735399",
         "longitud": "-3.594355582",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -4836,7 +4836,7 @@
         "UTMY": "4470041.90",
         "latitud": "40.37841904",
         "longitud": "-3.767240468",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -4854,7 +4854,7 @@
         "UTMY": "4472738.84",
         "latitud": "40.40345595",
         "longitud": "-3.646165909",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -4872,7 +4872,7 @@
         "UTMY": "4470025.17",
         "latitud": "40.37860534",
         "longitud": "-3.714641117",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -4890,7 +4890,7 @@
         "UTMY": "4472002.79",
         "latitud": "40.39688953",
         "longitud": "-3.634478572",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -4907,7 +4907,7 @@
         "UTMY": "4483879.66",
         "latitud": "40.5034714",
         "longitud": "-3.706355909",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -4925,7 +4925,7 @@
         "UTMY": "4470811.58",
         "latitud": "40.38554646",
         "longitud": "-3.73753348",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -4943,7 +4943,7 @@
         "UTMY": "4470378.91",
         "latitud": "40.38190628",
         "longitud": "-3.695938392",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -4961,7 +4961,7 @@
         "UTMY": "4481056.31",
         "latitud": "40.47826258",
         "longitud": "-3.668261241",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -4979,7 +4979,7 @@
         "UTMY": "4473267.68",
         "latitud": "40.40821598",
         "longitud": "-3.646939656",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -4997,7 +4997,7 @@
         "UTMY": "4470937.71",
         "latitud": "40.38687465",
         "longitud": "-3.706806586",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -5015,7 +5015,7 @@
         "UTMY": "4470987.84",
         "latitud": "40.38718499",
         "longitud": "-3.729555278",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -5033,7 +5033,7 @@
         "UTMY": "4477775.95",
         "latitud": "40.44877423",
         "longitud": "-3.657036057",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -5051,7 +5051,7 @@
         "UTMY": "4473515.98",
         "latitud": "40.41042488",
         "longitud": "-3.651935154",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -5069,7 +5069,7 @@
         "UTMY": "4472075.30",
         "latitud": "40.39707843",
         "longitud": "-3.714113341",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -5087,7 +5087,7 @@
         "UTMY": "4465842.89",
         "latitud": "40.34116319",
         "longitud": "-3.675264764",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -5105,7 +5105,7 @@
         "UTMY": "4473544.21",
         "latitud": "40.41063083",
         "longitud": "-3.660460934",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -5123,7 +5123,7 @@
         "UTMY": "4471971.48",
         "latitud": "40.39591401",
         "longitud": "-3.750286074",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -5142,7 +5142,7 @@
         "UTMY": "4476784.75",
         "latitud": "40.43991309",
         "longitud": "-3.64485179",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -5159,7 +5159,7 @@
         "UTMY": "4481403.31",
         "latitud": "40.48099503",
         "longitud": "-3.733183387",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -5177,7 +5177,7 @@
         "UTMY": "4473200.76",
         "latitud": "40.40754695",
         "longitud": "-3.658655805",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -5195,7 +5195,7 @@
         "UTMY": "4467654.27",
         "latitud": "40.35742549",
         "longitud": "-3.684914537",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -5214,7 +5214,7 @@
         "UTMY": "4469426.02",
         "latitud": "40.37334237",
         "longitud": "-3.692472821",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -5232,7 +5232,7 @@
         "UTMY": "4475198.42",
         "latitud": "40.4255882",
         "longitud": "-3.650847751",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -5250,7 +5250,7 @@
         "UTMY": "4481101.21",
         "latitud": "40.47842163",
         "longitud": "-3.709446437",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -5267,7 +5267,7 @@
         "UTMY": "4466913.96",
         "latitud": "40.35071212",
         "longitud": "-3.692274736",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -5285,7 +5285,7 @@
         "UTMY": "4480667.53",
         "latitud": "40.47454833",
         "longitud": "-3.703932363",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -5303,7 +5303,7 @@
         "UTMY": "4468717.44",
         "latitud": "40.36694595",
         "longitud": "-3.694602542",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -5321,7 +5321,7 @@
         "UTMY": "4467024.04",
         "latitud": "40.35161857",
         "longitud": "-3.7063763",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -5340,7 +5340,7 @@
         "UTMY": "4471957.48",
         "latitud": "40.3964446",
         "longitud": "-3.641144577",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -5358,7 +5358,7 @@
         "UTMY": "4475121.56",
         "latitud": "40.42501632",
         "longitud": "-3.629068666",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -5376,7 +5376,7 @@
         "UTMY": "4473134.22",
         "latitud": "40.40655438",
         "longitud": "-3.724384145",
-        "DiA SEMANA": "VIERNES",
+        "DIASEMANA": "VIERNES",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -5394,7 +5394,7 @@
         "UTMY": "4479063.34",
         "latitud": "40.4596153",
         "longitud": "-3.778909594",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -5412,7 +5412,7 @@
         "UTMY": "4477316.37",
         "latitud": "40.44475344",
         "longitud": "-3.635651261",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -5430,7 +5430,7 @@
         "UTMY": "4476057.92",
         "latitud": "40.43306165",
         "longitud": "-3.697121262",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "MAnANA",
         "HORA INICIO": "7:00",
         "HORA FINAL": "8:30"
@@ -5449,7 +5449,7 @@
         "UTMY": "4478174.33",
         "latitud": "40.45255663",
         "longitud": "-3.622087825",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -5468,7 +5468,7 @@
         "UTMY": "4479726.98",
         "latitud": "40.46598087",
         "longitud": "-3.71921181",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -5486,7 +5486,7 @@
         "UTMY": "4477307.56",
         "latitud": "40.44479404",
         "longitud": "-3.613450944",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -5504,7 +5504,7 @@
         "UTMY": "4477005.22",
         "latitud": "40.44157",
         "longitud": "-3.701391",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -5523,7 +5523,7 @@
         "UTMY": "4471362.47",
         "latitud": "40.3907741",
         "longitud": "-3.694808258",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "MAnANA",
         "HORA INICIO": "8:45",
         "HORA FINAL": "10:15"
@@ -5541,7 +5541,7 @@
         "UTMY": "4476585.12",
         "latitud": "40.43776198",
         "longitud": "-3.705244148",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -5559,7 +5559,7 @@
         "UTMY": "4480874.57",
         "latitud": "40.47667771",
         "longitud": "-3.659140563",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -5577,7 +5577,7 @@
         "UTMY": "4472447.21",
         "latitud": "40.40051605",
         "longitud": "-3.699861192",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -5596,7 +5596,7 @@
         "UTMY": "4474142.61",
         "latitud": "40.41574723",
         "longitud": "-3.706902053",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "MAnANA",
         "HORA INICIO": "10:30",
         "HORA FINAL": "12:00"
@@ -5614,7 +5614,7 @@
         "UTMY": "4482435.53",
         "latitud": "40.49074059",
         "longitud": "-3.659086913",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -5632,7 +5632,7 @@
         "UTMY": "4470440.95",
         "latitud": "40.38265243",
         "longitud": "-3.664107653",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -5650,7 +5650,7 @@
         "UTMY": "4472990.16",
         "latitud": "40.4054452",
         "longitud": "-3.693616009",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -5668,7 +5668,7 @@
         "UTMY": "4477071.54",
         "latitud": "40.44209537",
         "longitud": "-3.713196475",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "MAnANA",
         "HORA INICIO": "12:15",
         "HORA FINAL": "13:45"
@@ -5686,7 +5686,7 @@
         "UTMY": "4477482.65",
         "latitud": "40.4458567",
         "longitud": "-3.703788592",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -5704,7 +5704,7 @@
         "UTMY": "4470315.25",
         "latitud": "40.38148977",
         "longitud": "-3.669341034",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -5723,7 +5723,7 @@
         "UTMY": "4483076.55",
         "latitud": "40.4965535",
         "longitud": "-3.652395738",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -5741,7 +5741,7 @@
         "UTMY": "4471817.71",
         "latitud": "40.39487516",
         "longitud": "-3.694841268",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -5759,7 +5759,7 @@
         "UTMY": "4473664.08",
         "latitud": "40.41141936",
         "longitud": "-3.709642084",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "TARDE",
         "HORA INICIO": "14:00",
         "HORA FINAL": "15:30"
@@ -5777,7 +5777,7 @@
         "UTMY": "4470271.88",
         "latitud": "40.38115207",
         "longitud": "-3.660117241",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -5795,7 +5795,7 @@
         "UTMY": "4476210.98",
         "latitud": "40.43439746",
         "longitud": "-3.704244286",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -5813,7 +5813,7 @@
         "UTMY": "4471631.64",
         "latitud": "40.39317945",
         "longitud": "-3.698067172",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "TARDE",
         "HORA INICIO": "15:45",
         "HORA FINAL": "17:15"
@@ -5832,7 +5832,7 @@
         "UTMY": "4476035.91",
         "latitud": "40.43279411",
         "longitud": "-3.708519655",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -5850,7 +5850,7 @@
         "UTMY": "4470656.43",
         "latitud": "40.3847149",
         "longitud": "-3.642651544",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -5868,7 +5868,7 @@
         "UTMY": "4481435.19",
         "latitud": "40.48188344",
         "longitud": "-3.63135024",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -5885,7 +5885,7 @@
         "UTMY": "4472715.18",
         "latitud": "40.40285996",
         "longitud": "-3.711376364",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "TARDE",
         "HORA INICIO": "17:30",
         "HORA FINAL": "19:00"
@@ -5902,7 +5902,7 @@
         "UTMY": "4480737.23",
         "latitud": "40.47550565",
         "longitud": "-3.647589094",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -5919,7 +5919,7 @@
         "UTMY": "4476321.63",
         "latitud": "40.43534781",
         "longitud": "-3.711832755",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"
@@ -5938,7 +5938,7 @@
         "UTMY": "4472922.62",
         "latitud": "40.4046986",
         "longitud": "-3.716273022",
-        "DiA SEMANA": "SABADO",
+        "DIASEMANA": "SÁBADO",
         "TURNO": "TARDE",
         "HORA INICIO": "19:15",
         "HORA FINAL": "20:45"

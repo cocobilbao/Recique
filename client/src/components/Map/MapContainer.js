@@ -177,7 +177,9 @@ export class MapContainer extends Component {
       return true;
     }
     return false;
-  };
+  }
+infoWin=(pos)=>{console.log("click"); return <InfoWindow position={pos}>hola</InfoWindow>
+}
 
   componentDidMount() {
     this.showCurrentLocation();
@@ -308,7 +310,7 @@ export class MapContainer extends Component {
                 lng: cleanPoint.location.longitud
               };
 
-              return <Marker position={pos} title= {"Punto limpio"} icon= "http://www.googlemapsmarkers.com/v1/P/f60404/"/>;
+              return <Marker onClick={()=>this.infoWin(pos)} position={pos} title= {"Punto limpio"} icon= "http://www.googlemapsmarkers.com/v1/P/f60404/"/>;
             })}
 
           {this.state.isSearchingPlastic &&
@@ -375,7 +377,7 @@ export class MapContainer extends Component {
 
           <Marker
             name={"Your position"}
-            title= {"Alguien quiere reciclar..."}
+            title= {"Aquí alguien quiere reciclar..."}
             position={this.state.currentLatLng}
             icon={{
               url:
