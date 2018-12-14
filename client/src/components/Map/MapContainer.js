@@ -81,6 +81,8 @@ export class MapContainer extends Component {
   };
   nearMe = pos => {
     const objPos = new this.props.google.maps.LatLng(pos.lat, pos.lng);
+    console.log(objPos)
+
     const myPos = new this.props.google.maps.LatLng(
       this.state.currentLatLng.lat,
       this.state.currentLatLng.lng
@@ -94,9 +96,12 @@ export class MapContainer extends Component {
       return true;
     }
     return false;
-  }
-infoWin=(pos)=>{console.log("click"); return <InfoWindow position={pos}>hola</InfoWindow>
-}
+  };
+  
+  infoWin = (pos) => {
+    console.log(pos);
+    return <InfoWindow onCloseClick={() => this.infoWin(pos)}><span>dirección</span></InfoWindow>;
+  };
 
   componentDidMount() {
     this.showCurrentLocation();
@@ -104,14 +109,14 @@ infoWin=(pos)=>{console.log("click"); return <InfoWindow position={pos}>hola</In
   render() {
     const style = {
       width: "100%",
-      height: "100%",
+      height: "100%"
     };
     let utm = new utmObj("ETRS89");
     utm.setEllipsoid("ETRS89");
     return (
       <div id="mapAndFilters">
         <div id="filters">
-        <div id="ck-button">
+          <div id="ck-button">
             <label>
               <input
                 type="checkbox"
@@ -150,25 +155,34 @@ infoWin=(pos)=>{console.log("click"); return <InfoWindow position={pos}>hola</In
               <span>Punto limpio</span>{" "}
             </label>
           </div>
-          {/* <div>
-            <input type="checkbox" onChange={this.showPlastic} />
-            <h4>Envases</h4>
-          </div>
           <div>
+            <input
+              type="checkbox"
+              onChange={() => {
+                Promise.all([this.show("isSearchingPaper")]);
+              }}
+            />
+            <h4>Isla de reciclaje</h4>
+          </div>
+          {/* <div>
             <input type="checkbox" onChange={this.showGlass} />
             <h4>Vidrio</h4>
           </div> */}
-          <div>
-            <input type="checkbox" onChange={() => {Promise.all([this.show("isSearchingPaper")])}} />
-            <h4>Isla de reciclaje</h4>
-          </div>
+          {/* <div>
+            <input
+              type="checkbox"
+              onChange={() => this.show("isSearchingRestos")}
+            />
+            <h4>Contenedor de vidrio con publicidad</h4>
+          </div> */}
+
           {/* <div>
             <input type="checkbox" onChange={this.showOrganic} />
             <h4>Orgánico</h4>
           </div>
           <div>
-            <input type="checkbox" onChange={this.showRestos} />
-            <h4>Restos</h4>
+            <input type="checkbox" onChange={this.showPlastic} />
+            <h4>Envases</h4>
           </div> */}
         </div>
 
@@ -187,7 +201,13 @@ infoWin=(pos)=>{console.log("click"); return <InfoWindow position={pos}>hola</In
                 lng: ropa.longitud
               };
 
-              if (this.nearMe(pos)) return <Marker position={pos} icon= "http://www.googlemapsmarkers.com/v1/T/f3610c/"/>;
+              if (this.nearMe(pos))
+                return (
+                  <Marker
+                    position={pos}
+                    icon="http://www.googlemapsmarkers.com/v1/T/f3610c/"
+                  />
+                );
             })}
 
           {this.state.isSearchingOil &&
@@ -197,7 +217,14 @@ infoWin=(pos)=>{console.log("click"); return <InfoWindow position={pos}>hola</In
                 lng: oil.longitud
               };
 
-              if (this.nearMe(pos)) return <Marker position={pos} title= {"Aceite vegetal"} icon= "http://www.googlemapsmarkers.com/v1/A/d5c53a/"/>;
+              if (this.nearMe(pos))
+                return (
+                  <Marker
+                    position={pos}
+                    title={"Aceite vegetal"}
+                    icon="http://www.googlemapsmarkers.com/v1/A/d5c53a/"
+                  />
+                );
             })}
 
           {this.state.isSearchingBatteries &&
@@ -207,7 +234,14 @@ infoWin=(pos)=>{console.log("click"); return <InfoWindow position={pos}>hola</In
                 lng: batteries.Longitud
               };
 
-              if (this.nearMe(pos)) return <Marker position={pos} title= {"Pilas"} icon= "http://www.googlemapsmarkers.com/v1/P/bc20ef/" />;
+              if (this.nearMe(pos))
+                return (
+                  <Marker
+                    position={pos}
+                    title={"Pilas"}
+                    icon="http://www.googlemapsmarkers.com/v1/P/bc20ef/"
+                  />
+                );
             })}
 
           {this.state.isSearchingPharmacy &&
@@ -219,7 +253,13 @@ infoWin=(pos)=>{console.log("click"); return <InfoWindow position={pos}>hola</In
                 "N"
               );
 
-              if (this.nearMe(pos)) return <Marker position={pos} icon= "http://www.googlemapsmarkers.com/v1/F/127e12/"/>;
+              if (this.nearMe(pos))
+                return (
+                  <Marker
+                    position={pos}
+                    icon="http://www.googlemapsmarkers.com/v1/F/127e12/"
+                  />
+                );
             })}
 
           {this.state.isSearchingCleanPointMov &&
@@ -229,7 +269,14 @@ infoWin=(pos)=>{console.log("click"); return <InfoWindow position={pos}>hola</In
                 lng: cleanPointMov.longitud
               };
 
-              if (this.nearMe(pos)) return <Marker position={pos} title= {"Punto limpio móvil"}icon= "http://www.googlemapsmarkers.com/v1/M/f60404/"/>;
+              if (this.nearMe(pos))
+                return (
+                  <Marker
+                    position={pos}
+                    title={"Punto limpio móvil"}
+                    icon="http://www.googlemapsmarkers.com/v1/M/f60404/"
+                  />
+                );
             })}
 
           {this.state.isSearchingCleanPoint &&
@@ -239,7 +286,15 @@ infoWin=(pos)=>{console.log("click"); return <InfoWindow position={pos}>hola</In
                 lng: cleanPoint.location.longitud
               };
 
-              if (this.nearMe(pos)) return <Marker onClick={()=>this.infoWin(pos)} position={pos} title= {"Punto limpio"} icon= "http://www.googlemapsmarkers.com/v1/P/f60404/"/>;
+              // if (this.nearMe(pos))
+                return (
+                  <Marker
+                    onClick={() => this.infoWin(pos)}
+                    position={pos}
+                    title={"Punto limpio"}
+                    icon="http://www.googlemapsmarkers.com/v1/P/f60404/"
+                  />
+                );
             })}
 
           {this.state.isSearchingPlastic &&
@@ -251,7 +306,13 @@ infoWin=(pos)=>{console.log("click"); return <InfoWindow position={pos}>hola</In
                 "N"
               );
 
-              return <Marker position={pos} title= {"Isla de reciclaje"} icon= "http://www.googlemapsmarkers.com/v1/R/3636e8/"/>;
+              return (
+                <Marker
+                  position={pos}
+                  title={"Isla de reciclaje"}
+                  icon="http://www.googlemapsmarkers.com/v1/R/3636e8/"
+                />
+              );
             })}
 
           {this.state.isSearchingGlass &&
@@ -265,7 +326,13 @@ infoWin=(pos)=>{console.log("click"); return <InfoWindow position={pos}>hola</In
               console.log(glass.latitud);
               //console.log(utm.convertUtmToLatLng(+glass.latitud, +glass.longitud, 30, "N"))
 
-              return <Marker position={pos} title= {"Isla de reciclaje"} icon= "http://www.googlemapsmarkers.com/v1/R/3636e8/"/>;
+              return (
+                <Marker
+                  position={pos}
+                  title={"Isla de reciclaje"}
+                  icon="http://www.googlemapsmarkers.com/v1/R/3636e8/"
+                />
+              );
             })}
 
           {this.state.isSearchingPaper &&
@@ -277,7 +344,14 @@ infoWin=(pos)=>{console.log("click"); return <InfoWindow position={pos}>hola</In
                 "N"
               );
 
-              if (this.nearMe(pos)) return <Marker position={pos} title= {"Isla de reciclaje"} icon= "http://www.googlemapsmarkers.com/v1/R/3636e8/"/>;
+              if (this.nearMe(pos))
+                return (
+                  <Marker
+                    position={pos}
+                    title={"Isla de reciclaje"}
+                    icon="http://www.googlemapsmarkers.com/v1/R/3636e8/"
+                  />
+                );
             })}
 
           {this.state.isSearchingOrganic &&
@@ -289,30 +363,35 @@ infoWin=(pos)=>{console.log("click"); return <InfoWindow position={pos}>hola</In
                 "N"
               );
 
-              return <Marker position={pos}  />;
+              return <Marker position={pos} />;
             })}
 
           {this.state.isSearchingRestos &&
             this.state.restosData.map(restos => {
-              const pos = utm.convertUtmToLatLng(
-                restos.latitud,
-                restos.longitud,
-                30,
-                "N"
-              );
+              const pos = {
+                lat: restos.latitud,
+                lng: restos.longitud
+              };
 
-              return <Marker position={pos} />;
+              if (this.nearMe(pos))
+                return (
+                  <Marker
+                    position={pos}
+                    title={"Vidrio"}
+                    icon="http://www.googlemapsmarkers.com/v1/V/3dbaa4/"
+                  />
+                );
             })}
 
           <Marker
             name={"Your position"}
-            title= {"Aquí alguien quiere reciclar..."}
+            title={"Aquí alguien quiere reciclar..."}
             position={this.state.currentLatLng}
             icon={{
               url:
                 "https://lh3.googleusercontent.com/-HC9CYmcjF3E/U3N2rnp-W3I/AAAAAAAABMw/qSJAzyyGp1o/w265-h353-n/14%2B-%2B2",
               anchor: new this.props.google.maps.Point(32, 32),
-              scaledSize: new this.props.google.maps.Size(52, 64),
+              scaledSize: new this.props.google.maps.Size(52, 64)
             }}
           />
         </Map>
