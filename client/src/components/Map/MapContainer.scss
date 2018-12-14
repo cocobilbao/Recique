@@ -1,39 +1,47 @@
-#filters{
-  position: absolute;
-  display: flex;
-  flex-direction: row; 
+#mapAndFilters {
+  height: 80vh;
 }
 
+#map{
+  height: 90%;
+}
+
+.Map{
+  height: 72vh !important;
+}
+#filters {
+  height: 10%;
+}
 #ck-button {
-  margin:4px;
-  background-color:#00A100;
-  border-radius:4px;
-  border:1px solid #D0D0D0;
-  overflow:auto;
-  float:left;
+  margin: 4px;
+  background-color: #00a100;
+  border-radius: 4px;
+  border: 1px solid #d0d0d0;
+  overflow: auto;
+  float: left;
 }
 
 #ck-button:hover {
-  background:#00991e;
+  background: #00991e;
 }
 
 #ck-button label {
-  float:left;
-  width:4.0em;
+  float: left;
+  width: 4em;
 }
 
 #ck-button label span {
-  text-align:center;
-  padding:3px 0px;
-  display:block;
+  text-align: center;
+  padding: 3px 0px;
+  display: block;
 }
 
 #ck-button label input {
-  position:absolute;
-  top:-20px;
+  position: absolute;
+  top: -20px;
 }
 
 #ck-button input:checked + span {
-  background-color:#007016;
-  color:#fff;
+  background-color: #007016;
+  color: #fff;
 }

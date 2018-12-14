@@ -75,7 +75,7 @@ export default class Signup extends Component {
       return <Redirect to="/" />;
     }
     return (
-      <div id="signup">
+      <div className="signup">
         <div className="signup-form">
           <h2>Signup</h2>
           <form onSubmit={this.handleFormSubmit}>
@@ -104,6 +104,7 @@ export default class Signup extends Component {
             </div>
             <div id="preview" />
             <input class="btn" type="submit" value="Signup" />
+            
           </form>
         </div>
       </div>

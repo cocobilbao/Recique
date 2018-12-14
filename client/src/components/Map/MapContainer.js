@@ -69,99 +69,16 @@ export class MapContainer extends Component {
     }
   };
 
-  showRopa = e => {
-    e.preventDefault();
-    if (this.state.isSearchingClothes) {
-      this.setState({ ...this.state, isSearchingClothes: false }, () =>
-        e.preventDefault()
-      );
+  show = field => {
+    let newClonedState = { ...this.state };
+    if (this.state[field]) {
+      newClonedState[field] = false;
+      this.setState(newClonedState);
     } else {
-      this.setState({ ...this.state, isSearchingClothes: true }, () =>
-        e.preventDefault()
-      );
+      newClonedState[field] = true;
+      this.setState(newClonedState);
     }
   };
-
-  showOil = () => {
-    if (this.state.isSearchingOil) {
-      this.setState({ ...this.state, isSearchingOil: false });
-    } else {
-      this.setState({ ...this.state, isSearchingOil: true });
-    }
-  };
-
-  showBatteries = () => {
-    if (this.state.isSearchingBatteries) {
-      this.setState({ ...this.state, isSearchingBatteries: false });
-    } else {
-      this.setState({ ...this.state, isSearchingBatteries: true });
-    }
-  };
-
-  showPharmacy = () => {
-    if (this.state.isSearchingPharmacy) {
-      this.setState({ ...this.state, isSearchingPharmacy: false });
-    } else {
-      this.setState({ ...this.state, isSearchingPharmacy: true });
-    }
-  };
-
-  showCleanPointMov = () => {
-    if (this.state.isSearchingCleanPointMov) {
-      this.setState({ ...this.state, isSearchingCleanPointMov: false });
-    } else {
-      this.setState({ ...this.state, isSearchingCleanPointMov: true });
-    }
-  };
-
-  showCleanPoint = () => {
-    if (this.state.isSearchingCleanPoint) {
-      this.setState({ ...this.state, isSearchingCleanPoint: false });
-    } else {
-      this.setState({ ...this.state, isSearchingCleanPoint: true });
-    }
-  };
-
-  showPlastic = () => {
-    if (this.state.isSearchingPlastic) {
-      this.setState({ ...this.state, isSearchingPlastic: false });
-    } else {
-      this.setState({ ...this.state, isSearchingPlastic: true });
-    }
-  };
-
-  showGlass = () => {
-    if (this.state.isSearchingGlass) {
-      this.setState({ ...this.state, isSearchingGlass: false });
-    } else {
-      this.setState({ ...this.state, isSearchingGlass: true });
-    }
-  };
-
-  showPaper = () => {
-    if (this.state.isSearchingPaper) {
-      this.setState({ ...this.state, isSearchingPaper: false });
-    } else {
-      this.setState({ ...this.state, isSearchingPaper: true });
-    }
-  };
-
-  showOrganic = () => {
-    if (this.state.isSearchingOrganic) {
-      this.setState({ ...this.state, isSearchingOrganic: false });
-    } else {
-      this.setState({ ...this.state, isSearchingOrganic: true });
-    }
-  };
-
-  showRestos = () => {
-    if (this.state.isSearchingRestos) {
-      this.setState({ ...this.state, isSearchingRestos: false });
-    } else {
-      this.setState({ ...this.state, isSearchingRestos: true });
-    }
-  };
-
   nearMe = pos => {
     const objPos = new this.props.google.maps.LatLng(pos.lat, pos.lng);
     const myPos = new this.props.google.maps.LatLng(
@@ -187,60 +104,72 @@ infoWin=(pos)=>{console.log("click"); return <InfoWindow position={pos}>hola</In
   render() {
     const style = {
       width: "100%",
-      height: "90%"
+      height: "100%",
     };
-    const coords = { lat: -21.805149, lng: -49.0921657 };
     let utm = new utmObj("ETRS89");
     utm.setEllipsoid("ETRS89");
     return (
-      <div>
-        <div>
-          <div id="ck-button">
+      <div id="mapAndFilters">
+        <div id="filters">
+        <div id="ck-button">
             <label>
-              <input type="checkbox" onChange={this.showRopa} />{" "}
-              <span>Ropa</span>{" "}
+              <input
+                type="checkbox"
+                onChange={() => this.show("isSearchingOil")}
+              />{" "}
+              <span>Aceite vegetal</span>{" "}
             </label>
           </div>
-          <div>
-            <input type="checkbox" onChange={this.showOil} />
-            <h4>Aceite vegetal</h4>
+
+          <div id="ck-button">
+            <label>
+              <input
+                type="checkbox"
+                onChange={() => this.show("isSearchingBatteries")}
+              />{" "}
+              <span>Pilas</span>{" "}
+            </label>
           </div>
-          <div>
-            <input type="checkbox" onChange={this.showBatteries} />
-            <h4>Pilas</h4>
+
+          <div id="ck-button">
+            <label>
+              <input
+                type="checkbox"
+                onChange={() => this.show("isSearchingCleanPointMov")}
+              />{" "}
+              <span>Punto limpio movil</span>{" "}
+            </label>
           </div>
-          <div>
-            <input type="checkbox" onChange={this.showPharmacy} />
-            <h4>Punto sigre</h4>
+
+          <div id="ck-button">
+            <label>
+              <input
+                type="checkbox"
+                onChange={() => this.show("isSearchingCleanPoint")}
+              />{" "}
+              <span>Punto limpio</span>{" "}
+            </label>
           </div>
-          <div>
-            <input type="checkbox" onChange={this.showCleanPointMov} />
-            <h4>Punto limpio móvil</h4>
-          </div>
-          <div>
-            <input type="checkbox" onChange={this.showCleanPoint} />
-            <h4>Punto limpio</h4>
-          </div>
-          <div>
+          {/* <div>
             <input type="checkbox" onChange={this.showPlastic} />
             <h4>Envases</h4>
           </div>
           <div>
             <input type="checkbox" onChange={this.showGlass} />
             <h4>Vidrio</h4>
-          </div>
+          </div> */}
           <div>
-            <input type="checkbox" onChange={this.showPaper} />
-            <h4>Papel y cartón</h4>
+            <input type="checkbox" onChange={() => {Promise.all([this.show("isSearchingPaper")])}} />
+            <h4>Isla de reciclaje</h4>
           </div>
-          <div>
+          {/* <div>
             <input type="checkbox" onChange={this.showOrganic} />
             <h4>Orgánico</h4>
           </div>
           <div>
             <input type="checkbox" onChange={this.showRestos} />
             <h4>Restos</h4>
-          </div>
+          </div> */}
         </div>
 
         <Map
@@ -258,7 +187,7 @@ infoWin=(pos)=>{console.log("click"); return <InfoWindow position={pos}>hola</In
                 lng: ropa.longitud
               };
 
-              return <Marker position={pos} icon= "http://www.googlemapsmarkers.com/v1/T/f3610c/"/>;
+              if (this.nearMe(pos)) return <Marker position={pos} icon= "http://www.googlemapsmarkers.com/v1/T/f3610c/"/>;
             })}
 
           {this.state.isSearchingOil &&
@@ -268,7 +197,7 @@ infoWin=(pos)=>{console.log("click"); return <InfoWindow position={pos}>hola</In
                 lng: oil.longitud
               };
 
-              return <Marker position={pos} title= {"Aceite vegetal"} icon= "http://www.googlemapsmarkers.com/v1/A/d5c53a/"/>;
+              if (this.nearMe(pos)) return <Marker position={pos} title= {"Aceite vegetal"} icon= "http://www.googlemapsmarkers.com/v1/A/d5c53a/"/>;
             })}
 
           {this.state.isSearchingBatteries &&
@@ -278,7 +207,7 @@ infoWin=(pos)=>{console.log("click"); return <InfoWindow position={pos}>hola</In
                 lng: batteries.Longitud
               };
 
-              return <Marker position={pos} title= {"Pilas"} icon= "http://www.googlemapsmarkers.com/v1/P/bc20ef/" />;
+              if (this.nearMe(pos)) return <Marker position={pos} title= {"Pilas"} icon= "http://www.googlemapsmarkers.com/v1/P/bc20ef/" />;
             })}
 
           {this.state.isSearchingPharmacy &&
@@ -290,7 +219,7 @@ infoWin=(pos)=>{console.log("click"); return <InfoWindow position={pos}>hola</In
                 "N"
               );
 
-              return <Marker position={pos} icon= "http://www.googlemapsmarkers.com/v1/F/127e12/"/>;
+              if (this.nearMe(pos)) return <Marker position={pos} icon= "http://www.googlemapsmarkers.com/v1/F/127e12/"/>;
             })}
 
           {this.state.isSearchingCleanPointMov &&
@@ -310,7 +239,7 @@ infoWin=(pos)=>{console.log("click"); return <InfoWindow position={pos}>hola</In
                 lng: cleanPoint.location.longitud
               };
 
-              return <Marker onClick={()=>this.infoWin(pos)} position={pos} title= {"Punto limpio"} icon= "http://www.googlemapsmarkers.com/v1/P/f60404/"/>;
+              if (this.nearMe(pos)) return <Marker onClick={()=>this.infoWin(pos)} position={pos} title= {"Punto limpio"} icon= "http://www.googlemapsmarkers.com/v1/P/f60404/"/>;
             })}
 
           {this.state.isSearchingPlastic &&
@@ -328,8 +257,8 @@ infoWin=(pos)=>{console.log("click"); return <InfoWindow position={pos}>hola</In
           {this.state.isSearchingGlass &&
             this.state.glassData.map(glass => {
               const pos = utm.convertUtmToLatLng(
-                +glass.latitud,
-                +glass.longitud,
+                glass.latitud,
+                glass.longitud,
                 30,
                 "N"
               );
@@ -348,7 +277,7 @@ infoWin=(pos)=>{console.log("click"); return <InfoWindow position={pos}>hola</In
                 "N"
               );
 
-              return <Marker position={pos} title= {"Isla de reciclaje"} icon= "http://www.googlemapsmarkers.com/v1/R/3636e8/"/>;
+              if (this.nearMe(pos)) return <Marker position={pos} title= {"Isla de reciclaje"} icon= "http://www.googlemapsmarkers.com/v1/R/3636e8/"/>;
             })}
 
           {this.state.isSearchingOrganic &&

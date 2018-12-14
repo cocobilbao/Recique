@@ -1,5 +1,8 @@
 #Header {
   height: 20vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
   background-image: url("https://res.cloudinary.com/rcwebdev/image/upload/v1544543405/react/drawing.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,11 +11,15 @@
 
 .brand {
   width: 100%;
-  height: 20%;
+  height: 65%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-h1{
-  margin: 0;
+h1 {
+  margin:0;
+  align-self: center;
 }
 
 $color_accent: rgb(0, 139, 28);
@@ -21,15 +28,14 @@ $color_grey: rgb(0, 139, 28);
 
 .menu {
   background: #00991e;
-  margin-top: 8.4vh;
+  height: 35%;
   border-radius: 4px;
-  width: 100vw;
+  width: 100%;
   // height: 50%;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.4);
   overflow: hidden;
 
   &-item {
-    height: 50%;
     padding-top: 1%;
     padding-bottom: 1%;
     cursor: pointer;
@@ -58,12 +64,13 @@ $color_grey: rgb(0, 139, 28);
 
   .selected {
     transition: border 0.1s 0.1s ease;
-    border-bottom: 1vh solid $color_accent_highlight;
+    background: rgb(0, 133, 27);
+    border-bottom: 10px solid $color_accent_highlight;
 
     &:before {
-      background: rgb(0, 139, 28);
+      background: rgb(0, 109, 22);
       transition: width 0.05s 0.02s ease-in-out;
-      width: 100vw;
+      // width: 100%;
     }
   }
 }
