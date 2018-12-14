@@ -266,7 +266,7 @@ export class MapContainer extends Component {
                 lng: oil.longitud
               };
 
-              return <Marker position={pos} icon= "http://www.googlemapsmarkers.com/v1/A/d5c53a/"/>;
+              return <Marker position={pos} title= {"Aceite vegetal"} icon= "http://www.googlemapsmarkers.com/v1/A/d5c53a/"/>;
             })}
 
           {this.state.isSearchingBatteries &&
@@ -276,7 +276,7 @@ export class MapContainer extends Component {
                 lng: batteries.Longitud
               };
 
-              return <Marker position={pos} icon= "http://www.googlemapsmarkers.com/v1/P/bc20ef/" />;
+              return <Marker position={pos} title= {"Pilas"} icon= "http://www.googlemapsmarkers.com/v1/P/bc20ef/" />;
             })}
 
           {this.state.isSearchingPharmacy &&
@@ -298,7 +298,7 @@ export class MapContainer extends Component {
                 lng: cleanPointMov.longitud
               };
 
-              if (this.nearMe(pos)) return <Marker position={pos} icon= "http://www.googlemapsmarkers.com/v1/M/f60404/"/>;
+              if (this.nearMe(pos)) return <Marker position={pos} title= {"Punto limpio móvil"}icon= "http://www.googlemapsmarkers.com/v1/M/f60404/"/>;
             })}
 
           {this.state.isSearchingCleanPoint &&
@@ -308,7 +308,7 @@ export class MapContainer extends Component {
                 lng: cleanPoint.location.longitud
               };
 
-              return <Marker position={pos} icon= "http://www.googlemapsmarkers.com/v1/P/f60404/"/>;
+              return <Marker position={pos} title= {"Punto limpio"} icon= "http://www.googlemapsmarkers.com/v1/P/f60404/"/>;
             })}
 
           {this.state.isSearchingPlastic &&
@@ -320,7 +320,7 @@ export class MapContainer extends Component {
                 "N"
               );
 
-              return <Marker position={pos} icon= "http://www.googlemapsmarkers.com/v1/R/3636e8/"/>;
+              return <Marker position={pos} title= {"Isla de reciclaje"} icon= "http://www.googlemapsmarkers.com/v1/R/3636e8/"/>;
             })}
 
           {this.state.isSearchingGlass &&
@@ -334,7 +334,7 @@ export class MapContainer extends Component {
               console.log(glass.latitud);
               //console.log(utm.convertUtmToLatLng(+glass.latitud, +glass.longitud, 30, "N"))
 
-              return <Marker position={pos} icon= "http://www.googlemapsmarkers.com/v1/R/3636e8/"/>;
+              return <Marker position={pos} title= {"Isla de reciclaje"} icon= "http://www.googlemapsmarkers.com/v1/R/3636e8/"/>;
             })}
 
           {this.state.isSearchingPaper &&
@@ -346,7 +346,7 @@ export class MapContainer extends Component {
                 "N"
               );
 
-              return <Marker position={pos} icon= "http://www.googlemapsmarkers.com/v1/R/3636e8/"/>;
+              return <Marker position={pos} title= {"Isla de reciclaje"} icon= "http://www.googlemapsmarkers.com/v1/R/3636e8/"/>;
             })}
 
           {this.state.isSearchingOrganic &&
@@ -375,12 +375,13 @@ export class MapContainer extends Component {
 
           <Marker
             name={"Your position"}
+            title= {"Alguien quiere reciclar..."}
             position={this.state.currentLatLng}
             icon={{
               url:
                 "https://lh3.googleusercontent.com/-HC9CYmcjF3E/U3N2rnp-W3I/AAAAAAAABMw/qSJAzyyGp1o/w265-h353-n/14%2B-%2B2",
               anchor: new this.props.google.maps.Point(32, 32),
-              scaledSize: new this.props.google.maps.Size(52, 64)
+              scaledSize: new this.props.google.maps.Size(52, 64),
             }}
           />
         </Map>
