@@ -55,7 +55,8 @@ export default class Header extends Component {
     return (
       <div id="Header">
         <div class="brand">
-          <h1>hola</h1>
+          <img src="https://res.cloudinary.com/rcwebdev/image/upload/v1544785905/react/logoPuntoVerdeEdited.svg" alt="Recique logo"/>
+          <h1>Recique</h1>
         </div>
         <nav class="menu">{navBar}</nav>
       </div>

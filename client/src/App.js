@@ -42,6 +42,10 @@ class App extends Component {
         <Header user={this.state.user} logout={this.logout} />
         <Switch>
           <Route
+           exact path="/"
+            render={() => <MapContainer />}
+          />
+          <Route
             path="/signup"
             render={() => <Signup getUser={this.getUser} />}
           />
@@ -50,7 +54,7 @@ class App extends Component {
             render={() => <Login getUser={this.getUser} />}
           />
         </Switch>
-        <MapContainer />
+        
       </div>
     );
   }
