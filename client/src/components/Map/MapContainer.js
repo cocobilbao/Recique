@@ -124,6 +124,15 @@ export class MapContainer extends Component {
             <label>
               <input
                 type="checkbox"
+                onChange={() => this.show("isSearchingClothes")}
+              />{" "}
+              <span>Ropa</span>{" "}
+            </label>
+          </div>
+          <div id="ck-button">
+            <label>
+              <input
+                type="checkbox"
                 onChange={() => this.show("isSearchingOil")}
               />{" "}
               <span>Aceite vegetal</span>{" "}
@@ -159,13 +168,6 @@ export class MapContainer extends Component {
               <span>Punto limpio</span>{" "}
             </label>
           </div>
-          <div>
-            <input
-              type="checkbox"
-              onChange={() => this.show("isSearchingPaper")}
-            />
-            <h4>Isla de reciclaje</h4>
-          </div>
           <div id="ck-button">
             <label>
               <input
@@ -198,7 +200,7 @@ export class MapContainer extends Component {
         </div>
 
         <Map
-          class="Map"
+          className="Map"
           google={this.props.google}
           style={style}
           center={this.state.currentLatLng}
