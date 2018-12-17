@@ -1,0 +1,193 @@
+[
+  {
+    "restos": [
+      "celo",
+      "cinta de embalar",
+      "pegatinas",
+      "adornos de Navidad",
+      "arena de gato",
+      "bolsas de silice",
+      "bombilla convencional",
+      "bombilla halógena",
+      "botones",
+      "cepillo de dientes",
+      "cepillo de pelo",
+      "cerámica",
+      "porcelana",
+      "chicles",
+      "goma",
+      "colillas",
+      "cubiertos metálicos",
+      "llaves",
+      "cerraduras",
+      "escoba",
+      "cepillo de dientes",
+      "plumero",
+      "fregona",
+      "espejo",
+      "esponjas",
+      "estropajos",
+      "bayetas",
+      "utensilios de teflón",
+      "escrementos de animales",
+      "fotografías",
+      "fundas de gafas",
+      "gafas",
+      "guantes de látex",
+      "guantes de nitrilo",
+      "lápices de madera",
+      "lentillas",
+      "palas",
+      "raquetas",
+      "pañales",
+      "compresas",
+      "servilletas",
+      "pelo",
+      "pelotas",
+      "balones",
+      "pirex",
+      "juguetes de plástico",
+      "utensilios de plástico",
+      "plastilina",
+      "utensilios de cocina",
+      "reglas",
+      "vendas ",
+      "tiritas",
+      "gasas ",
+      "algodón",
+      "escayola",
+      "arcilla",
+      "rotuladores",
+      "tetinas de biberón",
+      "toallitas húmedas",
+      "hilo dental"
+    ]
+  },
+  {
+    "orgánico": [
+      "restos de comida",
+      "desperdicios de fruta",
+      "desperdicios de verdura",
+      "desperdicios de carne",
+      "desperdicios de pescado",
+      "posos de café",
+      "plantas",
+      "hojas",
+      "bolsas biodegradables",
+      "frutos secos",
+      "tapones de corcho",
+      "servilletas manchadas",
+      "papel sucio",
+      "cerillas",
+      "serrín",
+      "cascaras de huevo",
+      "restos de marisco",
+      " flores"
+    ]
+  },
+  {
+    "plástico": [
+      "bricks",
+      "envases de plástico",
+      "aerosoles",
+      "papel de aluminio",
+      "botellas de plástico",
+      "tapas de envases",
+      "poliespan",
+      "hueveras de plástico",
+      "tapones de plástico",
+      "platos de plástico",
+      "chapas",
+      "botes de bebida",
+      "latas de conserva",
+      "aluminio",
+      "cajas de madera",
+      "film",
+      "blisters",
+      "bolsas de plástico",
+      "envoltorio de plástico"
+    ]
+  },
+
+  {
+    "papel": [
+      "papel",
+      "cartón",
+      "periódicos",
+      "cajas de cartón",
+      "toallitas húmedas",
+      "envoltorios de papel",
+      "hueveras de cartón"
+    ]
+  },
+  {
+    "vidrio": [
+      "botellas de vidrio",
+
+      "roll-on con vidrio",
+      "envases de vidrio",
+      "tarros de vidrio",
+      "recipientes de vidrio",
+      "frascos de vidrio"
+    ]
+  },
+  {
+    "pilas": ["pilas"]
+  },
+  {
+    "aceite": ["aceite vegetal"]
+  },
+  {
+    "textil": [
+      "ropa",
+      "calzado",
+      "complementos de vestir",
+      "muñecos de peluche"
+    ]
+  },
+  {
+    "punto sigre": ["medicamentos"]
+  },
+  {
+    "punto limpio": [
+      "pinturas",
+      "disolventes",
+      "aceite vegetal",
+      "capsulas de café",
+      "escombros",
+      "jeringuillas",
+      "radiografias",
+      "productos de limpieza",
+      "aparatos eléctricos",
+      "aparatos electrónicos",
+      "termometros",
+      "espejos",
+      "muebles",
+      "baterias",
+      "cables",
+      "cartuchos de tinta",
+      "dvd",
+      "envases contaminados",
+      "sartenes",
+      "herramientas",
+      "cd",
+      "aceite de motor",
+      "bombillas bajo consumo",
+      "fluorescentes",
+      "crritos de bebé",
+      "baterias de automóvil",
+      "jugetes eléctricos",
+      "alfombras"
+    ]
+  },
+  {
+    "recogida gratuita 010": [
+      "frigorífico",
+      "lavavajillas",
+      "cocinas",
+      "lavadoras",
+      "animales muertos",
+      "muebles"
+    ]
+  }
+]

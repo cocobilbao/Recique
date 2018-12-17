@@ -51,7 +51,11 @@ export class MapContainer extends Component {
       isSearchingGlass: false,
       isSearchingPaper: false,
       isSearchingOrganic: false,
-      isSearchingRestos: false
+      isSearchingRestos: false,
+
+      showingInfoWindow: false,
+      activeMarker: {},
+      selectedPlace: {}
     };
   }
 
@@ -98,23 +102,69 @@ export class MapContainer extends Component {
     return false;
   };
 
-  infoWin = pos => {
-    console.log(pos);
-    return (
-      <InfoWindow onCloseClick={() => this.infoWin(pos)}>
-        <span>dirección</span>
-      </InfoWindow>
-    );
+  onMarkerClick = (props, marker, e) =>
+    this.setState({
+      selectedPlace: props,
+      activeMarker: marker,
+      showingInfoWindow: true
+    });
+
+  onMapClicked = props => {
+    if (this.state.showingInfoWindow) {
+      this.setState({
+        showingInfoWindow: false,
+        activeMarker: null
+      });
+    }
   };
+
 
   componentDidMount() {
     this.showCurrentLocation();
   }
   render() {
-    const style = {
-      width: "100%",
-      height: "100%"
-    };
+    const style =
+    [
+      {
+        featrureType: "administrative",
+        elementType: "geometry",
+        stylers: [
+          {
+            visivility: "off"
+          }
+        ]
+      },
+      {
+        featrureType: "poi",
+        stylers: [
+          {
+            visivility: "off"
+          }
+        ]
+      },
+      {
+        featrureType: "road",
+        elementType: "labels.icon",
+        stylers: [
+          {
+            visivility: "off"
+          }
+        ]
+      },
+      {
+        featrureType: "transit",
+        stylers: [
+          {
+            visibility: "off"
+          }
+        ]
+      },
+      {
+        width: "100%",
+        height: "100%"
+      }
+    ]
+  
     let utm = new utmObj("ETRS89");
     utm.setEllipsoid("ETRS89");
     return (
@@ -126,7 +176,7 @@ export class MapContainer extends Component {
                 type="checkbox"
                 onChange={() => this.show("isSearchingClothes")}
               />{" "}
-              <span>Ropa</span>{" "}
+              <span>Textil</span>{" "}
             </label>
           </div>
           <div id="ck-button">
@@ -177,6 +227,24 @@ export class MapContainer extends Component {
               <span>Punto sigre</span>{" "}
             </label>
           </div>
+          <div id="ck-button">
+            <label>
+              <input
+                type="checkbox"
+                onChange={() => this.show("isSearchingPaper")}
+              />{" "}
+              <span>Isla de reciclaje</span>{" "}
+            </label>
+          </div>
+          <div id="ck-button">
+            <label>
+              <input
+                type="checkbox"
+                onChange={() => this.show("isSearchingRestos")}
+              />{" "}
+              <span>Vidrio</span>{" "}
+            </label>
+          </div>
           {/* <div>
             <input type="checkbox" onChange={this.showGlass} />
             <h4>Vidrio</h4>
@@ -217,6 +285,7 @@ export class MapContainer extends Component {
               if (this.nearMe(pos))
                 return (
                   <Marker
+                    title={"Textil"}
                     position={pos}
                     icon="http://www.googlemapsmarkers.com/v1/T/f3610c/"
                   />
@@ -252,7 +321,7 @@ export class MapContainer extends Component {
                   <Marker
                     position={pos}
                     title={"Pilas"}
-                    icon="http://www.googlemapsmarkers.com/v1/P/bc20ef/"
+                    icon="http://www.googlemapsmarkers.com/v1/P/792b93/"
                   />
                 );
             })}
@@ -270,7 +339,8 @@ export class MapContainer extends Component {
                 return (
                   <Marker
                     position={pos}
-                    icon="http://www.googlemapsmarkers.com/v1/F/127e12/"
+                    title={"Punto sigre"}
+                    icon="http://www.googlemapsmarkers.com/v1/S/0ee70f/"
                   />
                 );
             })}
@@ -285,11 +355,19 @@ export class MapContainer extends Component {
               if (this.nearMe(pos))
                 return (
                   <Marker
-                  onClick={() => this.infoWin(pos)}
+                  onClick={this.onMarkerClick}
+                  name={'Current location'}
                     position={pos}
                     title={"Punto limpio móvil"}
-                    icon="http://www.googlemapsmarkers.com/v1/M/f60404/"
-                  />
+                    icon="http://www.googlemapsmarkers.com/v1/M/ea64a6/"
+                  />,
+                  <InfoWindow
+                  marker={this.state.activeMarker}
+                  visible={this.state.showingInfoWindow}>
+                    <div>
+                      <h1>{cleanPointMov.TURNO}</h1>
+                    </div>
+                </InfoWindow>
                 );
             })}
 
@@ -304,7 +382,7 @@ export class MapContainer extends Component {
               return (
                 <Marker
                   position={pos}
-                  title={"Punto limpio"}
+                  title={cleanPoint.title}
                   icon="http://www.googlemapsmarkers.com/v1/P/f60404/"
                 />
               );
@@ -398,7 +476,7 @@ export class MapContainer extends Component {
 
           <Marker
             name={"Your position"}
-            title={"Aquí alguien quiere reciclar..."}
+            title={"Aquí alguien quiere reciclar"}
             position={this.state.currentLatLng}
             icon={{
               url:
