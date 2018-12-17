@@ -81,7 +81,7 @@ export class MapContainer extends Component {
   };
   nearMe = pos => {
     const objPos = new this.props.google.maps.LatLng(pos.lat, pos.lng);
-    console.log(objPos)
+    console.log(objPos);
 
     const myPos = new this.props.google.maps.LatLng(
       this.state.currentLatLng.lat,
@@ -97,10 +97,14 @@ export class MapContainer extends Component {
     }
     return false;
   };
-  
-  infoWin = (pos) => {
+
+  infoWin = pos => {
     console.log(pos);
-    return <InfoWindow onCloseClick={() => this.infoWin(pos)}><span>dirección</span></InfoWindow>;
+    return (
+      <InfoWindow onCloseClick={() => this.infoWin(pos)}>
+        <span>dirección</span>
+      </InfoWindow>
+    );
   };
 
   componentDidMount() {
@@ -158,11 +162,18 @@ export class MapContainer extends Component {
           <div>
             <input
               type="checkbox"
-              onChange={() => {
-                Promise.all([this.show("isSearchingPaper")]);
-              }}
+              onChange={() => this.show("isSearchingPaper")}
             />
             <h4>Isla de reciclaje</h4>
+          </div>
+          <div id="ck-button">
+            <label>
+              <input
+                type="checkbox"
+                onChange={() => this.show("isSearchingPharmacy")}
+              />{" "}
+              <span>Punto sigre</span>{" "}
+            </label>
           </div>
           {/* <div>
             <input type="checkbox" onChange={this.showGlass} />
@@ -272,6 +283,7 @@ export class MapContainer extends Component {
               if (this.nearMe(pos))
                 return (
                   <Marker
+                  onClick={() => this.infoWin(pos)}
                     position={pos}
                     title={"Punto limpio móvil"}
                     icon="http://www.googlemapsmarkers.com/v1/M/f60404/"
@@ -287,14 +299,13 @@ export class MapContainer extends Component {
               };
 
               // if (this.nearMe(pos))
-                return (
-                  <Marker
-                    onClick={() => this.infoWin(pos)}
-                    position={pos}
-                    title={"Punto limpio"}
-                    icon="http://www.googlemapsmarkers.com/v1/P/f60404/"
-                  />
-                );
+              return (
+                <Marker
+                  position={pos}
+                  title={"Punto limpio"}
+                  icon="http://www.googlemapsmarkers.com/v1/P/f60404/"
+                />
+              );
             })}
 
           {this.state.isSearchingPlastic &&
