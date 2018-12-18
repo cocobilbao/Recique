@@ -14,9 +14,25 @@ body {
     height: 100% !important;
     margin-top: 30px;
     margin-bottom: 30px;
+    background-color: #00991e;
+    padding: 10px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.4);
 }
 
-.news-block img {
+.news-1 img{
     width: 50vw;
-    height: 40vw !important;
+    height: 30vw !important;  
 }
+.news-2 img{
+    width: 50vw;
+    height: 40vw !important;  
+}
+.news-3 img{
+    width: 50vw;
+    height: 30vw !important;  
+}
+.news-4 img{
+    width: 50vw;
+    height: 20vw !important;  
+}
+

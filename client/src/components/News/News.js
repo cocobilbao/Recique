@@ -9,7 +9,7 @@ export default class News extends Component {
     return (
       <div className="news">
         <div className="news-block">
-          <div>
+          <div className="news-1">
             <h1>
               El plástico ya no es basura: un novedoso proyecto permite montar
               talleres de reciclaje en casa
@@ -34,7 +34,7 @@ export default class News extends Component {
           </div>
           <br />
           <br />
-          <div>
+          <div className="news-2">
             <h1>Tu basura en el mar; mi obra de arte en la tierra</h1>
             <h3>
               El festival Drap-Art recicla desechos del Mediterráneo para
@@ -49,10 +49,10 @@ export default class News extends Component {
               src="https://s3.amazonaws.com/codecademy-content/courses/React/react_photo-goose.jpg"
               alt="Reciqué"
             />
-          </div>
+          </div >
           <br />
           <br />
-          <div>
+          <div className="news-3">
             <h1>
             España probablemente no cumpla con los objetivos de reciclaje que establece la Unión Europea para 2020
             </h1>
@@ -71,7 +71,7 @@ export default class News extends Component {
           </div>
           <br />
           <br />
-          <div>
+          <div className="news-4">
             <h1>
               Crean el envase del futuro: reciclable, compostable y
               biodegradable en el mar
