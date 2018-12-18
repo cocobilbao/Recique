@@ -6,6 +6,7 @@ import AuthService from "./components/auth/AuthService";
 import { Route, Link, Switch } from "react-router-dom";
 import MapContainer from "./components/Map/MapContainer";
 import Header from "./components/Header/Header";
+import AboutUs from "./components/AboutUs/AboutUs"
 
 class App extends Component {
   constructor() {
@@ -44,6 +45,10 @@ class App extends Component {
           <Route
            exact path="/"
             render={() => <MapContainer />}
+          />
+          <Route
+            path="/about"
+            render={() => <AboutUs/>}
           />
           <Route
             path="/signup"

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 import {
   Map,
   InfoWindow,
@@ -119,7 +120,7 @@ export class MapContainer extends Component {
     utm.setEllipsoid("ETRS89");
     return (
       <div id="mapAndFilters">
-        <div id="filters">
+        <div className="filters">
           <div id="ck-button">
             <label>
               <input
@@ -177,26 +178,15 @@ export class MapContainer extends Component {
               <span>Punto sigre</span>{" "}
             </label>
           </div>
-          {/* <div>
-            <input type="checkbox" onChange={this.showGlass} />
-            <h4>Vidrio</h4>
-          </div> */}
-          {/* <div>
-            <input
-              type="checkbox"
-              onChange={() => this.show("isSearchingRestos")}
-            />
-            <h4>Contenedor de vidrio con publicidad</h4>
-          </div> */}
-
-          {/* <div>
-            <input type="checkbox" onChange={this.showOrganic} />
-            <h4>Orgánico</h4>
+          <div id="ck-button">
+            <label>
+              <input
+                type="checkbox"
+                onChange={() => this.show("isSearchingPaper")}
+              />{" "}
+              <span>Isla de reciclaje</span>{" "}
+            </label>
           </div>
-          <div>
-            <input type="checkbox" onChange={this.showPlastic} />
-            <h4>Envases</h4>
-          </div> */}
         </div>
 
         <Map
@@ -285,7 +275,7 @@ export class MapContainer extends Component {
               if (this.nearMe(pos))
                 return (
                   <Marker
-                  onClick={() => this.infoWin(pos)}
+                    onClick={() => this.infoWin(pos)}
                     position={pos}
                     title={"Punto limpio móvil"}
                     icon="http://www.googlemapsmarkers.com/v1/M/f60404/"
