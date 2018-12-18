@@ -28,7 +28,7 @@ export default class News extends Component {
             <br />
             <br />
             <img
-              src="https://s3.amazonaws.com/codecademy-content/courses/React/react_photo-goose.jpg"
+              src="https://res.cloudinary.com/dez8vpdet/image/upload/v1545159589/bolsas.jpg"
               alt="Reciqué"
             />
           </div>
@@ -38,7 +38,7 @@ export default class News extends Component {
             <h1>Tu basura en el mar; mi obra de arte en la tierra</h1>
             <h3>
               El festival Drap-Art recicla desechos del Mediterráneo para
-              concienciar sobre la sostenibilidad de los océanos
+              concienciar sobre la sostenibilidad de los océanos.
             </h3>
             <a href="https://elpais.com/ccaa/2018/12/08/catalunya/1544295594_845260.html">
               Ir a la noticia
@@ -46,7 +46,7 @@ export default class News extends Component {
             <br />
             <br />
             <img
-              src="https://s3.amazonaws.com/codecademy-content/courses/React/react_photo-goose.jpg"
+              src="https://res.cloudinary.com/dez8vpdet/image/upload/v1545159344/beach.jpg"
               alt="Reciqué"
             />
           </div >
@@ -65,7 +65,7 @@ export default class News extends Component {
             <br />
             <br />
             <img
-              src="https://s3.amazonaws.com/codecademy-content/courses/React/react_photo-goose.jpg"
+              src="https://res.cloudinary.com/dez8vpdet/image/upload/v1545159331/latas.jpg"
               alt="Reciqué"
             />
           </div>
@@ -78,7 +78,7 @@ export default class News extends Component {
             </h1>
             <h3>
               El laboratorio CircularLab de Ecoembes diseña un nuevo material
-              plástico a partir de residuos vegetales con propiedades únicas
+              plástico a partir de residuos vegetales con propiedades únicas.
             </h3>
             <a href="https://www.abc.es/natural/vivirenverde/abci-crean-envase-futuro-reciclable-compostable-y-biodegradable-mar-201811230925_noticia.html">
               Ir a la noticia
@@ -86,7 +86,7 @@ export default class News extends Component {
             <br />
             <br />
             <img
-              src="https://s3.amazonaws.com/codecademy-content/courses/React/react_photo-goose.jpg"
+              src="https://res.cloudinary.com/dez8vpdet/image/upload/v1545159324/botellas.jpg"
               alt="Reciqué"
             />
           </div>
