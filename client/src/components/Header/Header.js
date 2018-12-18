@@ -57,7 +57,7 @@ export default class Header extends Component {
     return (
       <div id="Header">
         <div class="brand">
-          <img src="https://res.cloudinary.com/rcwebdev/image/upload/v1544785905/react/logoPuntoVerdeEdited.svg" alt="Recique logo"/>
+          <img src="https://res.cloudinary.com/rcwebdev/image/upload/v1544785905/react/logoPuntoVerdeEdited.svg" alt="Reciqué logo"/>
           <h1>Reciqué</h1>
           <Link to="/news">
           <div className= "news-button">
