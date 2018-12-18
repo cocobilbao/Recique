@@ -17,6 +17,43 @@
   justify-content: center;
 }
 
+
+.news-button {
+  margin: 25px;
+  background-color: #f9fd06;
+  border-radius: 20px;
+  border: 1px solid #d0d0d0;
+  overflow: auto;
+  float: left;
+  align-self: center;
+  color: black;
+}
+
+.news-button:hover {
+  background: #d7da28;
+}
+
+.news-button label {
+  float: left;
+  width: 11vw;
+}
+
+.news-button label span {
+  text-align: center;
+  padding: 3px 3px;
+  display: block;
+}
+
+.news-button label input {
+  position: absolute;
+  top: -20px;
+}
+
+.news-button input:checked + span {
+  background-color: #007016;
+  color: #fff;
+}
+
 h1 {
   margin:0;
   align-self: center;

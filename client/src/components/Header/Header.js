@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import { Redirect, Route, Link } from "react-router-dom";
 import AuthService from "../../components/auth/AuthService";
 
+import "react-bootstrap";
 import "./Header.scss";
+
 
 export default class Header extends Component {
   constructor() {
@@ -56,7 +58,16 @@ export default class Header extends Component {
       <div id="Header">
         <div class="brand">
           <img src="https://res.cloudinary.com/rcwebdev/image/upload/v1544785905/react/logoPuntoVerdeEdited.svg" alt="Recique logo"/>
-          <h1>Recique</h1>
+          <h1>Reciqué</h1>
+          <Link to="/news">
+          <div className= "news-button">
+            <label>
+              <input
+              />
+              <span>Noticias</span>
+            </label>
+          </div>
+        </Link>
         </div>
         <nav class="menu">{navBar}</nav>
       </div>
