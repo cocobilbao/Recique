@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import { Redirect, Route, Link } from "react-router-dom";
 import AuthService from "../../components/auth/AuthService";
 
+import "react-bootstrap";
 import "./Header.scss";
+
 
 export default class Header extends Component {
   constructor() {
@@ -39,14 +41,14 @@ export default class Header extends Component {
             Home
           </div>
         </Link>
-        <Link to="/signup">
+        <Link to="/news">
           <div class="menu-item" onClick={toggleSelect}>
-            Signup
+            News
           </div>
         </Link>{" "}
-        <Link to="/login">
+        <Link to="/aboutus">
           <div class="menu-item" onClick={toggleSelect}>
-            Login
+           About us
           </div>
         </Link>
       </div>
@@ -55,8 +57,28 @@ export default class Header extends Component {
     return (
       <div id="Header">
         <div class="brand">
-          <img src="https://res.cloudinary.com/rcwebdev/image/upload/v1544785905/react/logoPuntoVerdeEdited.svg" alt="Recique logo"/>
-          <h1>Recique</h1>
+          <img src="https://res.cloudinary.com/rcwebdev/image/upload/v1544785905/react/logoPuntoVerdeEdited.svg" alt="Reciqué logo"/>
+          <h1>Reciqué</h1>
+          <div className="top-buttons">
+        <Link to="/login">
+          <div className= "news-button">
+            <label>
+              <input
+              />
+              <span>Login</span>
+            </label>
+          </div>
+        </Link>
+        <Link to="/signup">
+          <div className= "news-button">
+            <label>
+              <input
+              />
+              <span>Signup</span>
+            </label>
+          </div>
+        </Link>
+        </div>
         </div>
         <nav class="menu">{navBar}</nav>
       </div>

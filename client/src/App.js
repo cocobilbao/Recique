@@ -6,7 +6,8 @@ import AuthService from "./components/auth/AuthService";
 import { Route, Link, Switch } from "react-router-dom";
 import MapContainer from "./components/Map/MapContainer";
 import Header from "./components/Header/Header";
-import AboutUs from "./components/AboutUs/AboutUs"
+import AboutUs from "./components/AboutUs/AboutUs";
+import News from "./components/News/News"
 
 class App extends Component {
   constructor() {
@@ -49,6 +50,10 @@ class App extends Component {
           <Route
             path="/about"
             render={() => <AboutUs/>}
+          />
+           <Route
+            path="/news"
+            render={() => <News/>}
           />
           <Route
             path="/signup"
