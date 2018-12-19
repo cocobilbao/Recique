@@ -398,8 +398,6 @@ export class MapContainer extends Component {
                 30,
                 "N"
               );
-              console.log(glass.latitud);
-              //console.log(utm.convertUtmToLatLng(+glass.latitud, +glass.longitud, 30, "N"))
 
               return (
                 <Marker
@@ -464,7 +462,7 @@ export class MapContainer extends Component {
             position={this.state.currentLatLng}
             icon={{
               url:
-                "https://lh3.googleusercontent.com/-HC9CYmcjF3E/U3N2rnp-W3I/AAAAAAAABMw/qSJAzyyGp1o/w265-h353-n/14%2B-%2B2",
+                "https://res.cloudinary.com/dez8vpdet/image/upload/v1545159942/point.png",
               anchor: new this.props.google.maps.Point(32, 32),
               scaledSize: new this.props.google.maps.Size(52, 64)
             }}
