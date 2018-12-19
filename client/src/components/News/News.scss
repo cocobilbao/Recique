@@ -18,7 +18,7 @@ body {
     // padding: 10px;
     // box-shadow: 0 5px 25px rgba(0, 0, 0, 0.4);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     padding-left:30px;
 }
@@ -48,7 +48,7 @@ body {
 }
  .news-1 img {
     width: 40vw;
-    height: 37% !important;  
+    height: 15vw !important;  
  }
 
 .news-2 {
@@ -112,7 +112,7 @@ body {
 }
  .news-5 img {
     width: 40vw;
-    height: 60% !important;  
+    height: 24vw !important;  
  }
 
 .news-6 {
@@ -128,5 +128,6 @@ body {
 }
 .news-6 img {
     width: 40vw;
-    height: 15vw !important;  
+    height: 14vw !important;  
  }
+

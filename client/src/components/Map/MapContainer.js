@@ -103,12 +103,12 @@ export class MapContainer extends Component {
     return false;
   };
 
-  onMarkerClick = (props, marker, e) =>
+  onMarkerClick = (props, marker, e) =>{
     this.setState({
       selectedPlace: props,
       activeMarker: marker,
       showingInfoWindow: true
-    });
+    });}
 
   onMapClicked = props => {
     if (this.state.showingInfoWindow) {
@@ -331,28 +331,26 @@ export class MapContainer extends Component {
                 lng: cleanPointMov.longitud
               };
 
-              if (this.nearMe(pos))
+              if (this.nearMe(pos)){
                 return (
-                  (
                     <Marker
                       onClick={this.onMarkerClick}
                       name={"Current location"}
                       position={pos}
                       title={"Punto limpio móvil"}
                       icon="http://www.googlemapsmarkers.com/v1/M/ea64a6/"
-                    />
-                  ),
-                  (
+                    >
+      
                     <InfoWindow
                       marker={this.state.activeMarker}
                       visible={this.state.showingInfoWindow}
                     >
                       <div>
-                        <h1>{cleanPointMov.TURNO}</h1>
+                        <h1>Holaaaa</h1>
                       </div>
                     </InfoWindow>
-                  )
-                );
+                  </Marker>
+                );}
             })}
 
           {this.state.isSearchingCleanPoint &&
