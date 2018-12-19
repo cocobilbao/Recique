@@ -54,9 +54,9 @@ export class MapContainer extends Component {
       isSearchingOrganic: false,
       isSearchingRestos: false,
 
-      showingInfoWindow: false,
-      activeMarker: {},
-      selectedPlace: {}
+      // showingInfoWindow: false,
+      // activeMarker: {},
+      // selectedPlace: {}
     };
   }
 
@@ -103,21 +103,21 @@ export class MapContainer extends Component {
     return false;
   };
 
-  onMarkerClick = (props, marker, e) =>{
-    this.setState({
-      selectedPlace: props,
-      activeMarker: marker,
-      showingInfoWindow: true
-    });}
+  // onMarkerClick = (props, marker, e) =>{
+  //   this.setState({
+  //     selectedPlace: props,
+  //     activeMarker: marker,
+  //     showingInfoWindow: true
+  //   });}
 
-  onMapClicked = props => {
-    if (this.state.showingInfoWindow) {
-      this.setState({
-        showingInfoWindow: false,
-        activeMarker: null
-      });
-    }
-  };
+  // onMapClicked = props => {
+  //   if (this.state.showingInfoWindow) {
+  //     this.setState({
+  //       showingInfoWindow: false,
+  //       activeMarker: null
+  //     });
+  //   }
+  // };
 
   componentDidMount() {
     this.showCurrentLocation();
@@ -204,7 +204,7 @@ export class MapContainer extends Component {
                 type="checkbox"
                 onChange={() => this.show("isSearchingCleanPointMov")}
               />{" "}
-              <span>Punto limpio movil</span>{" "}
+              <span>Punto limpio móvil</span>{" "}
             </label>
           </div>
 
@@ -332,16 +332,16 @@ export class MapContainer extends Component {
               };
 
               if (this.nearMe(pos)){
-                let aux =`Punto limpio móvil ${cleanPointMov.TURNO} ${cleanPointMov.DIASEMANA}`
+                let aux =`Punto limpio: ${cleanPointMov.DIA} ${cleanPointMov.HORAINICIO} ${cleanPointMov.HORAFINAL}`
                 return (
                     <Marker
-                      onClick={this.onMarkerClick}
-                      name={"Current location"}
+                      // onClick={this.onMarkerClick}
+                      // name={"Current location"}
                       position={pos}
                       title={aux}
                       icon="http://www.googlemapsmarkers.com/v1/M/ea64a6/"
                     >
-      
+{/*       
                     <InfoWindow
                       marker={this.state.activeMarker}
                       visible={this.state.showingInfoWindow}
@@ -349,7 +349,7 @@ export class MapContainer extends Component {
                       <div>
                         <h1>Holaaaa</h1>
                       </div>
-                    </InfoWindow>
+                    </InfoWindow> */}
                   </Marker>
                 );}
             })}
