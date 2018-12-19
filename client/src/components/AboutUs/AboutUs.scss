@@ -1,4 +1,46 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgb(184, 255, 184);
+}
+
 .chartContainer{
-  height: 80vh !important;
-  width: 80vw;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+p{
+  text-align: justify;
+}
+.searchContainer{
+  width: 45vw;
+}
+
+.busqueda{
+  margin-bottom: 2rem;
+}
+
+.formLabel{
+  display: block;
+  transition: all 0.3s;
+  transform: translateY(0rem);
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+  margin-left: 3px;
+}
+
+.formInput{
+  display: block;
+  transition: all 0.3s;
+  color: #333;
+}
+
+.formInput:placeholder-shown + .formLabel{
+  opacity: 0;
+  z-index: -5000;
+  visibility: hidden;
+  margin-left: 3px;
+  transform: translateY(-1rem);
 }

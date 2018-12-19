@@ -260,7 +260,7 @@ export class MapContainer extends Component {
                 lat: ropa.latitud,
                 lng: ropa.longitud
               };
-
+              console.log("here")
               if (this.nearMe(pos))
                 return (
                   <Marker
