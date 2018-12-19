@@ -24,17 +24,19 @@ export default class Header extends Component {
       e.target.classList.add("selected");
     }
 
-    const navBar = this.props.user ? (
-      <div>
-        <Link class="menu-item" to="/">
-          Home
-        </Link>{" "}
-        -{" "}
-        <Link class="menu-item" to="/login" onClick={this.props.logout}>
-          Logout
-        </Link>
-      </div>
-    ) : (
+    // const navBar = this.props.user ? (
+    //   <div>
+    //     <Link class="menu-item" to="/">
+    //       Home
+    //     </Link>{" "}
+    //     {" "}
+    //     <Link class="menu-item" to="/login" onClick={this.props.logout}>
+    //       Logout
+    //     </Link>
+    //   </div>
+    // ) : (
+
+    const navBar = (
       <div>
         <Link to="/">
           <div class="menu-item" onClick={toggleSelect}>
@@ -54,30 +56,57 @@ export default class Header extends Component {
       </div>
     );
 
+    const buttons = this.props.user ?(
+      <div>
+            <Link to="/login">
+      <div className= "news-button" onClick={this.props.logout}>
+        <label>
+          <input
+          />
+          <span>Logout</span>
+        </label>
+      </div>
+    </Link>
+    <Link to="/signup">
+      <div className= "news-button">
+        <label>
+          <input
+          />
+          <span>Signup</span>
+        </label>
+      </div>
+    </Link>    
+      </div>
+      ) : (
+      <div>
+    <Link to="/login">
+      <div className= "news-button">
+        <label>
+          <input
+          />
+          <span>Login</span>
+        </label>
+      </div>
+    </Link>
+    <Link to="/signup">
+      <div className= "news-button">
+        <label>
+          <input
+          />
+          <span>Signup</span>
+        </label>
+      </div>
+    </Link>
+    </div>
+    )
+
     return (
       <div id="Header">
         <div class="brand">
           <img src="https://res.cloudinary.com/rcwebdev/image/upload/v1544785905/react/logoPuntoVerdeEdited.svg" alt="Reciqué logo"/>
           <h1>Reciqué</h1>
           <div className="top-buttons">
-        <Link to="/login">
-          <div className= "news-button">
-            <label>
-              <input
-              />
-              <span>Login</span>
-            </label>
-          </div>
-        </Link>
-        <Link to="/signup">
-          <div className= "news-button">
-            <label>
-              <input
-              />
-              <span>Signup</span>
-            </label>
-          </div>
-        </Link>
+        {buttons}
         </div>
         </div>
         <nav class="menu">{navBar}</nav>

@@ -332,12 +332,13 @@ export class MapContainer extends Component {
               };
 
               if (this.nearMe(pos)){
+                let aux =`Punto limpio móvil ${cleanPointMov.TURNO} ${cleanPointMov.DIASEMANA}`
                 return (
                     <Marker
                       onClick={this.onMarkerClick}
                       name={"Current location"}
                       position={pos}
-                      title={"Punto limpio móvil"}
+                      title={aux}
                       icon="http://www.googlemapsmarkers.com/v1/M/ea64a6/"
                     >
       
