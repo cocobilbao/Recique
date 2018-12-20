@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import "./AboutUs.scss";
 import data from "./Materiales.json";
 
+
 export default class AboutUs extends Component {
   constructor(props) {
     super(props);
@@ -39,23 +40,24 @@ export default class AboutUs extends Component {
             poder tener el hábito del reciclaje.
           </p>
         </div>
+
         <div className="searchContainer">
           <div className="busqueda">
-            
-            <p>Buscador de Contenedor</p>
+            <h3>Buscador de contenedor:</h3>
             <input
-            className="formInput"
+              className="formInput"
               type="text"
               name="materia"
-              placeholder="Que quieres reciclar?"
+              placeholder="¿Qué quieres reciclar?"
               onChange={e => {
                 this.handleChange(e);
               }}
             />
-            <label className="formLabel">Que quieres reciclar?</label>
+            <label className="formLabel">¿Qué quieres reciclar?</label>
           </div>
           <div className="resultado">
-              <h3>Va en contenedor de:</h3>
+          <hr></hr>
+            <h3>Pertenece a:</h3>
             {this.state.data.map(item => {
               let aux = Object.values(item)[0].map(item2 => {
                 return item2.includes(this.state.materia);

@@ -45,12 +45,12 @@ export default class Header extends Component {
         </Link>
         <Link to="/news">
           <div class="menu-item" onClick={toggleSelect}>
-            News
+            Noticias
           </div>
         </Link>{" "}
-        <Link to="/aboutus">
+        <Link to="/about">
           <div class="menu-item" onClick={toggleSelect}>
-           About us
+           Buscador
           </div>
         </Link>
       </div>
@@ -95,7 +95,7 @@ export default class Header extends Component {
       <div id="Header">
         <div class="brand">
           <img src="https://res.cloudinary.com/rcwebdev/image/upload/v1544785905/react/logoPuntoVerdeEdited.svg" alt="Reciqué logo"/>
-          <h1>Reciqué</h1>
+          <img className="recique" src="https://res.cloudinary.com/rcwebdev/image/upload/v1545315156/Simplecode/logo.png" alt="Reciqué logo"/>
           <div className="buttons">
         {buttons}
         </div>

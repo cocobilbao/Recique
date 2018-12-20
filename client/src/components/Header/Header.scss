@@ -3,7 +3,7 @@
   width: 100vw;
   display: flex;
   flex-direction: column;
-  background-image: url("https://res.cloudinary.com/rcwebdev/image/upload/v1544543405/react/drawing.svg");
+  background-image: url("https://res.cloudinary.com/rcwebdev/image/upload/v1545317240/react/drawing2.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -115,4 +115,10 @@ $color_grey: rgb(0, 139, 28);
       // width: 100%;
     }
   }
+}
+
+.recique {
+  width: 25%;
+  height: 90%;
+  margin-top: 2px;
 }

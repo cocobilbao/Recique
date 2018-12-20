@@ -62,8 +62,8 @@
       12929.51,
       15986.28
     ],
-    "borderColor": ["rgba(0, 153, 30)"],
-    "backgroundColor": ["rgba(0, 153, 30, 0.6)"]
+    "borderColor": ["rgba(23,22,22)"],
+    "backgroundColor": ["rgba(105,95,97, 0.6)"]
   },
   {
     "label": "Restos",

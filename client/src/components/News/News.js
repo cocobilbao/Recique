@@ -20,12 +20,10 @@ export default class News extends Component {
               </h1>
             </a>
             <h3>
-              Gran parte del plástico que se tira acaba en el mar. Es uno de los
-              mayores problemas medioambientales a los que se enfrenta la
-              sociedad actualmente. Contra esta situación, 'Precious Plastic'
-              propone ver el plástico como un material valioso, en lugar de como
-              basura. Este novedoso proyecto permite montar talleres de
-              reciclaje de plástico casero.
+              Gran parte del plástico que se tira acaba en el mar. Contra esta
+              situación, 'Precious Plastic' propone ver el plástico como un
+              material valioso, en lugar de como basura. Este novedoso proyecto
+              permite montar talleres de reciclaje de plástico casero.
             </h3>
             <img
               src="https://res.cloudinary.com/dez8vpdet/image/upload/v1545159589/bolsas.jpg "
@@ -100,12 +98,12 @@ export default class News extends Component {
               href="https://www.elespanol.com/ciencia/ecologia/20181031/aprende-calcular-huella-ecologica/349465601_0.html"
               target="blank"
             >
-              <h1>
-              Aprende a calcular tu huella ecológica
-              </h1>
+              <h1>Aprende a calcular tu huella ecológica</h1>
             </a>
             <h3>
-            La manera de viajar, comer o calentar la casa son algunas actividades diarias que afectan de forma directa al cambio climático. Aprende de qué forma calcular tu huella ecológica.
+              La manera de viajar, comer o calentar la casa son algunas
+              actividades diarias que afectan de forma directa al cambio
+              climático. Aprende de qué forma calcular tu huella ecológica.
             </h3>
             <img
               src="https://res.cloudinary.com/dez8vpdet/image/upload/v1545217556/viaje.jpg"
@@ -129,9 +127,7 @@ export default class News extends Component {
               de turismo ambiental. Se trata de paseos por los canales de
               Amsterdam donde los visitantes pueden recoger desechos plásticos.
               Los objetos recolectados son reciclados y usados para la
-              construcción de nuevos botes. Actualmente, la empresa está inmersa
-              en el diseño y confección de muebles de oficina utilizando los
-              materiales recuperados.
+              construcción de nuevos botes.
             </h3>
             <img
               src="https://res.cloudinary.com/dez8vpdet/image/upload/v1545217564/holanda.jpg"
