@@ -96,7 +96,7 @@ export default class Header extends Component {
         <div class="brand">
           <img src="https://res.cloudinary.com/rcwebdev/image/upload/v1544785905/react/logoPuntoVerdeEdited.svg" alt="Reciqué logo"/>
           <h1>Reciqué</h1>
-          <div>
+          <div className="buttons">
         {buttons}
         </div>
         </div>
