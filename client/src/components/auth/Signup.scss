@@ -4,8 +4,9 @@
 }
 
 .signup {
+  margin-top: 22px;
   width: 100vw;
-  height: 80vh !important;
+  height: 70vh !important;
   background-color: rgb(184, 255, 184);
   display: flex;
   justify-content: center;
@@ -20,6 +21,9 @@
   box-shadow: 0 5px 25px rgba(5, 5, 5, 0.8);
   overflow: hidden;
   align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .signup-form input {
@@ -47,8 +51,8 @@ h2 {
 
 .btn {
   border: 2px solid gray;
-  color: gray;
-  background-color: white;
+  color: black;
+  background-color: #b9b9ac;
   padding: 8px 20px;
   border-radius: 8px;
   font-size: 15px !important;

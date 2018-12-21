@@ -29,23 +29,23 @@ export default class Login extends Component {
     return (
       <div className="login">
         <div className="login-form">
-          <h2>Login</h2>
+          <h2>Inicio sesión</h2>
           <form className="form" onSubmit={this.handleFormSubmit}>
-            <label>Username</label>
+            <label>Usuario</label>
             <input
               type="text"
               name="username"
               onChange={e => this.handleChange(e)}
             />
 
-            <label>Password</label>
+            <label>Contraseña</label>
             <input
               type="password"
               name="password"
               onChange={e => this.handleChange(e)}
             />
 
-            <input class="btn" type="submit" value="Login" />
+            <input class="btn" type="submit" value="Inicio sesión" />
           </form>
         </div>
       </div>

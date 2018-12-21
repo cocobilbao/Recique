@@ -77,25 +77,25 @@ export default class Signup extends Component {
     return (
       <div className="signup">
         <div className="signup-form">
-          <h2>Signup</h2>
+          <h2>Registro</h2>
           <form onSubmit={this.handleFormSubmit}>
-            <p>Username</p>
+            <label>Usuario</label>
             <input
               type="text"
               name="username"
               onChange={e => this.handleChange(e)}
             />
 
-            <p>Password</p>
+            <label>Contraseña</label>
             <input
               type="password"
               name="password"
               onChange={e => this.handleChange(e)}
             />
             <br />
-            <p>Profile Picture</p>
             <div class="upload-btn-wrapper">
-              <button class="btn">Upload File</button>
+              <button class="btn">Subir foto de perfil</button>
+
               <input
                 type="file"
                 name="photo"
@@ -103,8 +103,7 @@ export default class Signup extends Component {
               />
             </div>
             <div id="preview" />
-            <input class="btn" type="submit" value="Signup" />
-            
+            <input class="btn" type="submit" value="Registro" />
           </form>
         </div>
       </div>

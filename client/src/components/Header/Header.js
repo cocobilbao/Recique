@@ -40,7 +40,7 @@ export default class Header extends Component {
       <div>
         <Link to="/">
           <div class="menu-item" onClick={toggleSelect}>
-            Home
+            Mapa
           </div>
         </Link>
         <Link to="/news">
@@ -63,7 +63,7 @@ export default class Header extends Component {
         <label>
           <input
           />
-          <span>Logout</span>
+          <span>Cerrar sesión</span>
         </label>
       </div>
     </Link>  
@@ -75,7 +75,7 @@ export default class Header extends Component {
         <label>
           <input
           />
-          <span>Login</span>
+          <span>Inicio sesión</span>
         </label>
       </div>
     </Link>
@@ -84,7 +84,7 @@ export default class Header extends Component {
         <label>
           <input
           />
-          <span>Signup</span>
+          <span>Registro</span>
         </label>
       </div>
     </Link>

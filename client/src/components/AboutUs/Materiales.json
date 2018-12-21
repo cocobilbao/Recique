@@ -10,6 +10,8 @@
       "bombilla convencional",
       "bombilla halógena",
       "botones",
+      "bolígrafos",
+      "preservativos",
       "cepillo de dientes",
       "cepillo de pelo",
       "cerámica",
@@ -86,11 +88,11 @@
     ]
   },
   {
-    "Plástico": [
+    "Envases": [
       "bricks",
+      "cubiertos de plástico",
       "envases de plástico",
       "aerosoles",
-      "papel de aluminio",
       "botellas de plástico",
       "tapas de envases",
       "poliespan",
@@ -109,7 +111,7 @@
     ]
   },
   {
-    "Papel": [
+    "Cartón": [
       "papel",
       "cartón",
       "periódicos",
@@ -133,7 +135,7 @@
     "Pilas": ["pilas"]
   },
   {
-    "Aceite": ["aceite vegetal"]
+    "Aceite vegetal": ["aceite vegetal"]
   },
   {
     "Textil": [
@@ -179,7 +181,7 @@
     ]
   },
   {
-    "Recogida gratuita 010": [
+    "Recogida gratuita ☎️ 010": [
       "frigorífico",
       "lavavajillas",
       "cocinas",

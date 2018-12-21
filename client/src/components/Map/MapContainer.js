@@ -456,7 +456,7 @@ export class MapContainer extends Component {
             })}
 
           <Marker
-            name={"Your position"}
+            // name={"Your position"}
             title={"Aquí alguien quiere reciclar"}
             position={this.state.currentLatLng}
             icon={{
