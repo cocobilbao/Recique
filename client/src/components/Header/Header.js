@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Redirect, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import AuthService from "../../components/auth/AuthService";
 
 import "react-bootstrap";
@@ -23,18 +23,6 @@ export default class Header extends Component {
       });
       e.target.classList.add("selected");
     }
-
-    // const navBar = this.props.user ? (
-    //   <div>
-    //     <Link class="menu-item" to="/">
-    //       Home
-    //     </Link>{" "}
-    //     {" "}
-    //     <Link class="menu-item" to="/login" onClick={this.props.logout}>
-    //       Logout
-    //     </Link>
-    //   </div>
-    // ) : (
 
     const navBar = (
       <div>

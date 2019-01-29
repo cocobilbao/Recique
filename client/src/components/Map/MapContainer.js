@@ -1,23 +1,17 @@
 import React, { Component } from "react";
 
-import {
-  Map,
-  InfoWindow,
-  Marker,
-  GoogleApiWrapper,
-  Circle
-} from "google-maps-react";
-import ropaData from "../../ropa.json";
-import oilData from "../../oil.json";
-import batteriesData from "../../batteries.json";
-import pharmacyData from "../../pharmacy.json";
-import cleanPointMovData from "../../cleanPointMov.json";
-import cleanPointData from "../../cleanPoint.json";
-import plasticData from "../../plastic.json";
-import glassData from "../../glass.json";
-import paperData from "../../paper.json";
-import organicData from "../../organic.json";
-import restosData from "../../restos.json";
+import { Map, Marker, GoogleApiWrapper } from "google-maps-react";
+import ropaData from "./RecyclingContainers/ropa.json";
+import oilData from "./RecyclingContainers/oil.json";
+import batteriesData from "./RecyclingContainers/batteries.json";
+import pharmacyData from "./RecyclingContainers/pharmacy.json";
+import cleanPointMovData from "./RecyclingContainers/cleanPointMov.json";
+import cleanPointData from "./RecyclingContainers/cleanPoint.json";
+import plasticData from "./RecyclingContainers/plastic.json";
+import glassData from "./RecyclingContainers/glass.json";
+import paperData from "./RecyclingContainers/paper.json";
+import organicData from "./RecyclingContainers/organic.json";
+import restosData from "./RecyclingContainers/restos.json";
 import "./MapContainer.scss";
 
 import utmObj from "utm-latlng";
@@ -52,11 +46,7 @@ export class MapContainer extends Component {
       isSearchingGlass: false,
       isSearchingPaper: false,
       isSearchingOrganic: false,
-      isSearchingRestos: false,
-
-      // showingInfoWindow: false,
-      // activeMarker: {},
-      // selectedPlace: {}
+      isSearchingRestos: false
     };
   }
 
@@ -86,8 +76,6 @@ export class MapContainer extends Component {
   };
   nearMe = pos => {
     const objPos = new this.props.google.maps.LatLng(pos.lat, pos.lng);
-    console.log(objPos);
-
     const myPos = new this.props.google.maps.LatLng(
       this.state.currentLatLng.lat,
       this.state.currentLatLng.lng
@@ -102,22 +90,6 @@ export class MapContainer extends Component {
     }
     return false;
   };
-
-  // onMarkerClick = (props, marker, e) =>{
-  //   this.setState({
-  //     selectedPlace: props,
-  //     activeMarker: marker,
-  //     showingInfoWindow: true
-  //   });}
-
-  // onMapClicked = props => {
-  //   if (this.state.showingInfoWindow) {
-  //     this.setState({
-  //       showingInfoWindow: false,
-  //       activeMarker: null
-  //     });
-  //   }
-  // };
 
   componentDidMount() {
     this.showCurrentLocation();
@@ -260,7 +232,6 @@ export class MapContainer extends Component {
                 lat: ropa.latitud,
                 lng: ropa.longitud
               };
-              console.log("here")
               if (this.nearMe(pos))
                 return (
                   <Marker
@@ -331,27 +302,20 @@ export class MapContainer extends Component {
                 lng: cleanPointMov.longitud
               };
 
-              if (this.nearMe(pos)){
-                let aux =`Punto limpio: ${cleanPointMov.DIA} ${cleanPointMov.HORAINICIO} ${cleanPointMov.HORAFINAL}`
+              if (this.nearMe(pos)) {
+                let aux = `Punto limpio: ${cleanPointMov.DIA} ${
+                  cleanPointMov.HORAINICIO
+                } ${cleanPointMov.HORAFINAL}`;
                 return (
-                    <Marker
-                      // onClick={this.onMarkerClick}
-                      // name={"Current location"}
-                      position={pos}
-                      title={aux}
-                      icon="http://www.googlemapsmarkers.com/v1/M/ea64a6/"
-                    >
-{/*       
-                    <InfoWindow
-                      marker={this.state.activeMarker}
-                      visible={this.state.showingInfoWindow}
-                    >
-                      <div>
-                        <h1>Holaaaa</h1>
-                      </div>
-                    </InfoWindow> */}
-                  </Marker>
-                );}
+                  <Marker
+                    // onClick={this.onMarkerClick}
+                    // name={"Current location"}
+                    position={pos}
+                    title={aux}
+                    icon="http://www.googlemapsmarkers.com/v1/M/ea64a6/"
+                  />
+                );
+              }
             })}
 
           {this.state.isSearchingCleanPoint &&
@@ -361,7 +325,6 @@ export class MapContainer extends Component {
                 lng: cleanPoint.location.longitud
               };
 
-              // if (this.nearMe(pos))
               return (
                 <Marker
                   position={pos}
@@ -456,7 +419,6 @@ export class MapContainer extends Component {
             })}
 
           <Marker
-            // name={"Your position"}
             title={"Aquí alguien quiere reciclar"}
             position={this.state.currentLatLng}
             icon={{

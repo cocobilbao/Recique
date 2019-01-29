@@ -11,7 +11,7 @@ class AuthService {
   }
 
   signup = (user) => {
-    // axios.post("http://localhost:5000/api/auth/signup", {user}, {withCredentials: true})
+    axios.post("http://localhost:5000/api/auth/signup", {user}, {withCredentials: true})
     const formData = new FormData();
     Object.keys(user).forEach(key => formData.append(key, user[key]));
 
@@ -24,7 +24,7 @@ class AuthService {
   }
 
   login = (user) => {
-    // axios.post("http://localhost:5000/api/auth/login", {user}, {withCredentials: true})
+    axios.post("http://localhost:5000/api/auth/login", {user}, {withCredentials: true})
     return this.service.post('/login', user)
     .then(response => response.data)
   }
